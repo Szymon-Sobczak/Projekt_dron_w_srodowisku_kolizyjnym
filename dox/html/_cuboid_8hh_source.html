@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Plik źródłowy Cuboid.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_cuboid_8hh_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Cuboid.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_cuboid_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once </span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="vector3_d_8hh.html">vector3D.hh</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="matrix3x3_8hh.html">matrix3x3.hh</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_geometrical__solid_8hh.html">Geometrical_solid.hh</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_cuboid.html">   36</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_cuboid.html">Cuboid</a>: <span class="keyword">public</span> <a class="code" href="class_geometrical__solid.html">Geometrical_solid</a>{</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_cuboid.html#a0d041761c3bcacdef76d36f3cb0e2dae">   39</a></span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_cuboid.html#a0d041761c3bcacdef76d36f3cb0e2dae">Center_of_solid</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_cuboid.html#a89ded353cde79ecfe74c22b87ef6802c">   42</a></span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_cuboid.html#a89ded353cde79ecfe74c22b87ef6802c">Local_corners</a>[8]; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_cuboid.html#af2aafeda12722dfcc866347973d5e01b">   45</a></span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <a class="code" href="class_cuboid.html#af2aafeda12722dfcc866347973d5e01b">Global_corners</a>[8]; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">   48</a></span>&#160;        <span class="keywordtype">double</span> <a class="code" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Roration_angle_Zaxis</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Transform_to_global_coords</a>(<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; vec);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">update_angleZ</a>(<span class="keywordtype">double</span> <span class="keyword">const</span> &amp; additional_angle);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordtype">double</span> <a class="code" href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">get_angle</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; <a class="code" href="class_cuboid.html#a1e9cb9b3a754247d602b51d501537888">get_center</a>();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">const</span> <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">operator [] </a>(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;         </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">operator [] </a>(<span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keyword">const</span> <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">operator () </a>(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;         </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">operator () </a>(<span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;};</div>
+<div class="ttc" id="a_geometrical__solid_8hh_html"><div class="ttname"><a href="_geometrical__solid_8hh.html">Geometrical_solid.hh</a></div><div class="ttdoc">Definicja klasy Geometrical_solid.</div></div>
+<div class="ttc" id="aclass_cuboid_html"><div class="ttname"><a href="class_cuboid.html">Cuboid</a></div><div class="ttdoc">Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ...</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8hh_source.html#l00036">Cuboid.hh:36</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a07a687d9ca38998c19d8258bcb6eb4df"><div class="ttname"><a href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">Cuboid::operator[]</a></div><div class="ttdeci">const Vector3D &amp; operator[](int index) const</div><div class="ttdoc">Przeciazenie operatora indeksujacego.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00061">Cuboid.cpp:61</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a0d041761c3bcacdef76d36f3cb0e2dae"><div class="ttname"><a href="class_cuboid.html#a0d041761c3bcacdef76d36f3cb0e2dae">Cuboid::Center_of_solid</a></div><div class="ttdeci">Vector3D Center_of_solid</div><div class="ttdoc">Wektor3D reprezentujacy srodek prostopadloscianu w przestrzeni globalnej.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8hh_source.html#l00039">Cuboid.hh:39</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1abf60e93d024b7a01ee5b1a48f1f08a"><div class="ttname"><a href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid::Cuboid</a></div><div class="ttdeci">Cuboid()</div><div class="ttdoc">Bezparametryczny konstrukotr klasy.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00019">Cuboid.cpp:19</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1e9cb9b3a754247d602b51d501537888"><div class="ttname"><a href="class_cuboid.html#a1e9cb9b3a754247d602b51d501537888">Cuboid::get_center</a></div><div class="ttdeci">Vector3D const  &amp; get_center()</div><div class="ttdoc">Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00133">Cuboid.cpp:133</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a46a9dbfb801dcd0e0a7e9773be14520a"><div class="ttname"><a href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">Cuboid::get_angle</a></div><div class="ttdeci">double get_angle() const</div><div class="ttdoc">Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00123">Cuboid.cpp:123</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a4f4bce99caa1af15c3a5c108e9ead271"><div class="ttname"><a href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Cuboid::Roration_angle_Zaxis</a></div><div class="ttdeci">double Roration_angle_Zaxis</div><div class="ttdoc">Wartosc double reprezentujaca kat obrotu prostopadloscianu w osi Z.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8hh_source.html#l00048">Cuboid.hh:48</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a89ded353cde79ecfe74c22b87ef6802c"><div class="ttname"><a href="class_cuboid.html#a89ded353cde79ecfe74c22b87ef6802c">Cuboid::Local_corners</a></div><div class="ttdeci">Vector3D Local_corners[8]</div><div class="ttdoc">Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie lokalnym.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8hh_source.html#l00042">Cuboid.hh:42</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a940aebd7222c87874c7e780f0d9376d5"><div class="ttname"><a href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Cuboid::Transform_to_global_coords</a></div><div class="ttdeci">void Transform_to_global_coords(Vector3D const &amp;vec)</div><div class="ttdoc">Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00047">Cuboid.cpp:47</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a9b20f9a82732a5ac054e3df9c58da330"><div class="ttname"><a href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">Cuboid::operator()</a></div><div class="ttdeci">const Vector3D &amp; operator()(int index) const</div><div class="ttdoc">Przeciazenie operatora funkcyjnego.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00087">Cuboid.cpp:87</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_aa7e28082277e96871e189ff01e12b825"><div class="ttname"><a href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">Cuboid::update_angleZ</a></div><div class="ttdeci">void update_angleZ(double const &amp;additional_angle)</div><div class="ttdoc">Metoda pozwalaja na aktualizowanie kata obrotu prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00113">Cuboid.cpp:113</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_af2aafeda12722dfcc866347973d5e01b"><div class="ttname"><a href="class_cuboid.html#af2aafeda12722dfcc866347973d5e01b">Cuboid::Global_corners</a></div><div class="ttdeci">Vector3D Global_corners[8]</div><div class="ttdoc">Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie globalnym.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8hh_source.html#l00045">Cuboid.hh:45</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html"><div class="ttname"><a href="class_geometrical__solid.html">Geometrical_solid</a></div><div class="ttdoc">Klasa modelujaca w programie pojecie bryły geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8hh_source.html#l00030">Geometrical_solid.hh:30</a></div></div>
+<div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
+<div class="ttc" id="amatrix3x3_8hh_html"><div class="ttname"><a href="matrix3x3_8hh.html">matrix3x3.hh</a></div><div class="ttdoc">Plik zawierajacy definicje konkretyzacji szablonu klasy Matrix do instancji Matrix3x3 - macierzy kwad...</div></div>
+<div class="ttc" id="avector3_d_8hh_html"><div class="ttname"><a href="vector3_d_8hh.html">vector3D.hh</a></div><div class="ttdoc">Plik zawierajacy definicje konkretyzacji szablonu klasy Vector do instancji Vector3D - wektora o dlug...</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_bfccd401955b95cf8c75461437045ac0.html">inc</a></li><li class="navelem"><a class="el" href="_cuboid_8hh.html">Cuboid.hh</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Dokumentacja klasy Cuboid</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_cuboid.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_cuboid-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy Cuboid</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za pomoca wektorow.  
+ <a href="class_cuboid.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla Cuboid</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid__inherit__graph.png" border="0" usemap="#a_cuboid_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_cuboid_inherit__map" id="a_cuboid_inherit__map">
+<area shape="rect" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ..." alt="" coords="131,80,197,107"/>
+<area shape="rect" href="class_mnt__long.html" title="Klasa modelujaca w programie pojecie gory ze zboczem. Klasa dziedziczy po klasie Cuboid i Scene_objec..." alt="" coords="5,155,88,181"/>
+<area shape="rect" href="class_mnt__pointed.html" title="Klasa modelujaca w programie pojecie gory ze szczytem. Klasa dziedziczy po klasie Cuboid i Scene_obje..." alt="" coords="113,155,215,181"/>
+<area shape="rect" href="class_plateau.html" title="Klasa modelujaca w programie pojecie plaskowyzu. Klasa dziedziczy po klasie Cuboid i Scene_object." alt="" coords="239,155,310,181"/>
+<area shape="rect" href="class_geometrical__solid.html" title="Klasa modelujaca w programie pojecie bryły geometrycznej." alt="" coords="94,5,234,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla Cuboid:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid__coll__graph.png" border="0" usemap="#a_cuboid_coll__map" alt="Collaboration graph"/></div>
+<map name="a_cuboid_coll__map" id="a_cuboid_coll__map">
+<area shape="rect" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ..." alt="" coords="27,277,93,304"/>
+<area shape="rect" href="class_geometrical__solid.html" title="Klasa modelujaca w programie pojecie bryły geometrycznej." alt="" coords="174,193,314,219"/>
+<area shape="rect" href="class_vector.html" title=" " alt="" coords="15,95,116,121"/>
+<area shape="rect" href="class_vector.html" title="Szablon klasy modelujacej w programie pojecie wektora." alt="" coords="5,5,125,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a1abf60e93d024b7a01ee5b1a48f1f08a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid</a> ()</td></tr>
+<tr class="memdesc:a1abf60e93d024b7a01ee5b1a48f1f08a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bezparametryczny konstrukotr klasy.  <a href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Więcej...</a><br /></td></tr>
+<tr class="separator:a1abf60e93d024b7a01ee5b1a48f1f08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940aebd7222c87874c7e780f0d9376d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Transform_to_global_coords</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;vec)</td></tr>
+<tr class="memdesc:a940aebd7222c87874c7e780f0d9376d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny.  <a href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Więcej...</a><br /></td></tr>
+<tr class="separator:a940aebd7222c87874c7e780f0d9376d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e28082277e96871e189ff01e12b825"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">update_angleZ</a> (double const &amp;additional_angle)</td></tr>
+<tr class="memdesc:aa7e28082277e96871e189ff01e12b825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalaja na aktualizowanie kata obrotu prostopadloscianu.  <a href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">Więcej...</a><br /></td></tr>
+<tr class="separator:aa7e28082277e96871e189ff01e12b825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a9dbfb801dcd0e0a7e9773be14520a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">get_angle</a> () const</td></tr>
+<tr class="memdesc:a46a9dbfb801dcd0e0a7e9773be14520a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu.  <a href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">Więcej...</a><br /></td></tr>
+<tr class="separator:a46a9dbfb801dcd0e0a7e9773be14520a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9cb9b3a754247d602b51d501537888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a1e9cb9b3a754247d602b51d501537888">get_center</a> ()</td></tr>
+<tr class="memdesc:a1e9cb9b3a754247d602b51d501537888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu.  <a href="class_cuboid.html#a1e9cb9b3a754247d602b51d501537888">Więcej...</a><br /></td></tr>
+<tr class="separator:a1e9cb9b3a754247d602b51d501537888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a687d9ca38998c19d8258bcb6eb4df"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">operator[]</a> (int index) const</td></tr>
+<tr class="memdesc:a07a687d9ca38998c19d8258bcb6eb4df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciazenie operatora indeksujacego.  <a href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">Więcej...</a><br /></td></tr>
+<tr class="separator:a07a687d9ca38998c19d8258bcb6eb4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a06a0e84f6cd5576929ff203324445"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#af4a06a0e84f6cd5576929ff203324445">operator[]</a> (int index)</td></tr>
+<tr class="memdesc:af4a06a0e84f6cd5576929ff203324445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciazenie operatora indeksujacego.  <a href="class_cuboid.html#af4a06a0e84f6cd5576929ff203324445">Więcej...</a><br /></td></tr>
+<tr class="separator:af4a06a0e84f6cd5576929ff203324445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b20f9a82732a5ac054e3df9c58da330"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">operator()</a> (int index) const</td></tr>
+<tr class="memdesc:a9b20f9a82732a5ac054e3df9c58da330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciazenie operatora funkcyjnego.  <a href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">Więcej...</a><br /></td></tr>
+<tr class="separator:a9b20f9a82732a5ac054e3df9c58da330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2bbb8949b81152fc8ff3b828cbeada"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a8a2bbb8949b81152fc8ff3b828cbeada">operator()</a> (int index)</td></tr>
+<tr class="memdesc:a8a2bbb8949b81152fc8ff3b828cbeada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciazenie operatora funkcyjnego.  <a href="class_cuboid.html#a8a2bbb8949b81152fc8ff3b828cbeada">Więcej...</a><br /></td></tr>
+<tr class="separator:a8a2bbb8949b81152fc8ff3b828cbeada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_geometrical__solid"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_geometrical__solid')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_geometrical__solid.html">Geometrical_solid</a></td></tr>
+<tr class="memitem:ab9f43c806e81fe39435d062678e443eb inherit pub_methods_class_geometrical__solid"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometrical__solid.html#ab9f43c806e81fe39435d062678e443eb">Geometrical_solid</a> ()</td></tr>
+<tr class="memdesc:ab9f43c806e81fe39435d062678e443eb inherit pub_methods_class_geometrical__solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bezparametryczny konstrukotr klasy.  <a href="class_geometrical__solid.html#ab9f43c806e81fe39435d062678e443eb">Więcej...</a><br /></td></tr>
+<tr class="separator:ab9f43c806e81fe39435d062678e443eb inherit pub_methods_class_geometrical__solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c03748a689e6596927b1358f141ff85 inherit pub_methods_class_geometrical__solid"><td class="memItemLeft" align="right" valign="top">std::string const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometrical__solid.html#a1c03748a689e6596927b1358f141ff85">Get_Name_of_file_global</a> ()</td></tr>
+<tr class="memdesc:a1c03748a689e6596927b1358f141ff85 inherit pub_methods_class_geometrical__solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca na pobranie nazwy bryly geometrycznej.  <a href="class_geometrical__solid.html#a1c03748a689e6596927b1358f141ff85">Więcej...</a><br /></td></tr>
+<tr class="separator:a1c03748a689e6596927b1358f141ff85 inherit pub_methods_class_geometrical__solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ead7c5b0fc35bc36b58b06372784a41 inherit pub_methods_class_geometrical__solid"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41">update_Name_of_file_global</a> (std::string const &amp;new_name)</td></tr>
+<tr class="memdesc:a5ead7c5b0fc35bc36b58b06372784a41 inherit pub_methods_class_geometrical__solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca na aktualizacje nazwy bryly geometrycznej.  <a href="class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41">Więcej...</a><br /></td></tr>
+<tr class="separator:a5ead7c5b0fc35bc36b58b06372784a41 inherit pub_methods_class_geometrical__solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b0e258250344308e07f7f7175e19f3 inherit pub_methods_class_geometrical__solid"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3">update_scale</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;new_scale)</td></tr>
+<tr class="memdesc:ac1b0e258250344308e07f7f7175e19f3 inherit pub_methods_class_geometrical__solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca na aktualizacje skali bryly geometrycznej.  <a href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3">Więcej...</a><br /></td></tr>
+<tr class="separator:ac1b0e258250344308e07f7f7175e19f3 inherit pub_methods_class_geometrical__solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bc0c2581baa2a57e454bb4033bab460 inherit pub_methods_class_geometrical__solid"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460">get_scale</a> ()</td></tr>
+<tr class="memdesc:a8bc0c2581baa2a57e454bb4033bab460 inherit pub_methods_class_geometrical__solid"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca na pobranie skali bryly geometrycznej.  <a href="class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460">Więcej...</a><br /></td></tr>
+<tr class="separator:a8bc0c2581baa2a57e454bb4033bab460 inherit pub_methods_class_geometrical__solid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a0d041761c3bcacdef76d36f3cb0e2dae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a0d041761c3bcacdef76d36f3cb0e2dae">Center_of_solid</a></td></tr>
+<tr class="memdesc:a0d041761c3bcacdef76d36f3cb0e2dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wektor3D reprezentujacy srodek prostopadloscianu w przestrzeni globalnej.  <a href="class_cuboid.html#a0d041761c3bcacdef76d36f3cb0e2dae">Więcej...</a><br /></td></tr>
+<tr class="separator:a0d041761c3bcacdef76d36f3cb0e2dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ded353cde79ecfe74c22b87ef6802c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a89ded353cde79ecfe74c22b87ef6802c">Local_corners</a> [8]</td></tr>
+<tr class="memdesc:a89ded353cde79ecfe74c22b87ef6802c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie lokalnym.  <a href="class_cuboid.html#a89ded353cde79ecfe74c22b87ef6802c">Więcej...</a><br /></td></tr>
+<tr class="separator:a89ded353cde79ecfe74c22b87ef6802c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2aafeda12722dfcc866347973d5e01b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#af2aafeda12722dfcc866347973d5e01b">Global_corners</a> [8]</td></tr>
+<tr class="memdesc:af2aafeda12722dfcc866347973d5e01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie globalnym.  <a href="class_cuboid.html#af2aafeda12722dfcc866347973d5e01b">Więcej...</a><br /></td></tr>
+<tr class="separator:af2aafeda12722dfcc866347973d5e01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4bce99caa1af15c3a5c108e9ead271"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Roration_angle_Zaxis</a></td></tr>
+<tr class="memdesc:a4f4bce99caa1af15c3a5c108e9ead271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wartosc double reprezentujaca kat obrotu prostopadloscianu w osi Z.  <a href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Więcej...</a><br /></td></tr>
+<tr class="separator:a4f4bce99caa1af15c3a5c108e9ead271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za pomoca wektorow. </p>
+<p>Klasa posiada:</p><ul>
+<li>prywatne pole "Local_corners" bedace tablica wektorow, opisuje ono wektorowo pozycje wierzcholkow lokalnych prostopadloscianu.</li>
+<li>prywatne pole "Global_corners" bedace tablica wektorow, opisuje ono wektorowo pozycje wierzcholkow globalnych prostopadloscianu.</li>
+<li>prywatne pole "Center_of_solid" bedace wektorem, opisuje ono wektorowo pozycje globalnego srodka prostopadloscianu.</li>
+<li>prywatne pole "Roration_angle_Zaxis" opisujace obrot prostopadloscianu w osi Z.</li>
+<li>publiczny konstruktor domyśly, nadajacy prostopadloscianowi wartosci wierzcholkow lokalnych.</li>
+</ul>
+<p>Klasa posiada publiczne metody pozwalajace na:</p><ul>
+<li>Transformacje prostopadlosiacnu z ukladu lokalnego do ukladu globalnego.</li>
+<li>Aktualizajce kata obrotu prostopadloscianu.</li>
+<li>Przeciazenie operatorow indeksujacych, umozliwajacych odczytywanie i zmiane wartosci reprezentujacych wierzcholki prostopadloscianu w ukladzie globalnym. <br  />
+</li>
+<li>Pobranie aktualngo kata obrotu prostopadloscianu. <br  />
+</li>
+<li>Pobranie aktualngo polozenia srodka prostopadloscianu. <br  />
+ </li>
+</ul>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8hh_source.html#l00036">36</a> pliku <a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a1abf60e93d024b7a01ee5b1a48f1f08a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1abf60e93d024b7a01ee5b1a48f1f08a">&#9670;&nbsp;</a></span>Cuboid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Cuboid::Cuboid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bezparametryczny konstrukotr klasy. </p>
+<p>Domyślny konstruktor obiektu typu <a class="el" href="class_cuboid.html" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ...">Cuboid</a>. Nadaje domyślne wartosci wierzcholkow lokalnych prostopadloscianowi. Ustawia kat obrotu prostopadloscianu w osi Z na wartosc 0. <br  />
+ Ustawia domsylna skale prostopadloscianu. <br  />
+</p>
+<dl class="section return"><dt>Zwraca</dt><dd>Prostopaloscian o srodku w ukladzie loklanym w punkcie (0, 0, 0), o wszystkich bokach dlugosci 1. <br  />
+ </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00019">19</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_a1abf60e93d024b7a01ee5b1a48f1f08a_cgraph.png" border="0" usemap="#aclass_cuboid_a1abf60e93d024b7a01ee5b1a48f1f08a_cgraph" alt=""/></div>
+<map name="aclass_cuboid_a1abf60e93d024b7a01ee5b1a48f1f08a_cgraph" id="aclass_cuboid_a1abf60e93d024b7a01ee5b1a48f1f08a_cgraph">
+<area shape="rect" title="Bezparametryczny konstrukotr klasy." alt="" coords="5,13,125,39"/>
+<area shape="rect" href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3" title="Metoda pozwalajaca na aktualizacje skali bryly geometrycznej." alt="" coords="173,5,321,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a46a9dbfb801dcd0e0a7e9773be14520a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46a9dbfb801dcd0e0a7e9773be14520a">&#9670;&nbsp;</a></span>get_angle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Cuboid::get_angle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu. </p>
+<p>Metoda zwraca aktualny kat obrotu prostopadloscianu.</p>
+<dl class="section return"><dt>Zwraca</dt><dd>Kat obrou prostopadloscianu, jako wartosc typu double. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00123">123</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_a46a9dbfb801dcd0e0a7e9773be14520a_icgraph.png" border="0" usemap="#aclass_cuboid_a46a9dbfb801dcd0e0a7e9773be14520a_icgraph" alt=""/></div>
+<map name="aclass_cuboid_a46a9dbfb801dcd0e0a7e9773be14520a_icgraph" id="aclass_cuboid_a46a9dbfb801dcd0e0a7e9773be14520a_icgraph">
+<area shape="rect" title="Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu." alt="" coords="869,46,1008,73"/>
+<area shape="rect" href="class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="620,5,821,47"/>
+<area shape="rect" href="class_drone.html#a272c0597d236f80545bff08a4d29b330" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych wybranego rotora do pli..." alt="" coords="640,71,801,112"/>
+<area shape="rect" href="class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="411,39,572,80"/>
+<area shape="rect" href="class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,46,163,73"/>
+<area shape="rect" href="class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,46,355,73"/>
+<area shape="rect" href="class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,97,363,123"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1e9cb9b3a754247d602b51d501537888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9cb9b3a754247d602b51d501537888">&#9670;&nbsp;</a></span>get_center()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const  &amp; Cuboid::get_center </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu. </p>
+<p>Metoda zwraca aktualne polozenie srodka postopadloscianu.</p>
+<dl class="section return"><dt>Zwraca</dt><dd>Wspolrzedne polozenia srodka prostopadloscianu, jako wartosc typu Vector3D. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00133">133</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_a1e9cb9b3a754247d602b51d501537888_icgraph.png" border="0" usemap="#aclass_cuboid_a1e9cb9b3a754247d602b51d501537888_icgraph" alt=""/></div>
+<map name="aclass_cuboid_a1e9cb9b3a754247d602b51d501537888_icgraph" id="aclass_cuboid_a1e9cb9b3a754247d602b51d501537888_icgraph">
+<area shape="rect" title="Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu." alt="" coords="244,56,388,83"/>
+<area shape="rect" href="class_mnt__long.html#a0004eda65d853a0d4bb14e67a8186ff9" title="Metoda sluzy do pobrania pozycji srodka gory ze zboczem." alt="" coords="15,5,186,32"/>
+<area shape="rect" href="class_mnt__pointed.html#a163000d39030a8a1ccd3f20e9d9de23a" title="Metoda sluzy do pobrania pozycji srodka gory ze szczytem." alt="" coords="5,56,196,83"/>
+<area shape="rect" href="class_plateau.html#abdf10c504ab7b86f1750986d261a0499" title="Metoda sluzy do pobrania pozycji srodka plaskowyzu." alt="" coords="21,107,180,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8a2bbb8949b81152fc8ff3b828cbeada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2bbb8949b81152fc8ff3b828cbeada">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp; Cuboid::operator() </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Przeciazenie operatora funkcyjnego. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>- index wierzcholka lokalnego prostopadloscianu. <br  />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc wierzcholka lokalnego prostopadloscianu w danym miejscu wektora. <br  />
+ </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00100">100</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9b20f9a82732a5ac054e3df9c58da330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b20f9a82732a5ac054e3df9c58da330">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp; Cuboid::operator() </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Przeciazenie operatora funkcyjnego. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>- index wierzcholka lokalnego prostopadloscianu. <br  />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc wierzcholka lokalnego prostopadloscianu w danym miejscu wektora jako stala. <br  />
+ </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00087">87</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af4a06a0e84f6cd5576929ff203324445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4a06a0e84f6cd5576929ff203324445">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp; Cuboid::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Przeciazenie operatora indeksujacego. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>- index wierzcholka globalnego prostopadloscianu. <br  />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc wierzcholka globalnego prostopadloscianu w danym miejscu wektora. <br  />
+ </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00074">74</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a07a687d9ca38998c19d8258bcb6eb4df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a687d9ca38998c19d8258bcb6eb4df">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> &amp; Cuboid::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Przeciazenie operatora indeksujacego. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>- index wierzcholka globalnego prostopadloscianu. <br  />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc wierzcholka globalnego prostopadloscianu w danym miejscu wektora jako stala. <br  />
+ </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00061">61</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a940aebd7222c87874c7e780f0d9376d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a940aebd7222c87874c7e780f0d9376d5">&#9670;&nbsp;</a></span>Transform_to_global_coords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cuboid::Transform_to_global_coords </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny. </p>
+<p>Metoda realizuje przechodzenie pomiedzy ukladem loklanym prostopadloscianu do ukladu globalnego sceny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">vec</td><td>- wektor przesuniecia globalnego srodka prostopadloscianu. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00047">47</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_a940aebd7222c87874c7e780f0d9376d5_cgraph.png" border="0" usemap="#aclass_cuboid_a940aebd7222c87874c7e780f0d9376d5_cgraph" alt=""/></div>
+<map name="aclass_cuboid_a940aebd7222c87874c7e780f0d9376d5_cgraph" id="aclass_cuboid_a940aebd7222c87874c7e780f0d9376d5_cgraph">
+<area shape="rect" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="5,27,165,69"/>
+<area shape="rect" href="matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd" title="Funkcja wypelniajaca Matrix3x3 wartosciaciami macierzy obrotu 3D w osi OZ, dla zadanego kata." alt="" coords="229,5,346,32"/>
+<area shape="rect" href="class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="213,57,361,98"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_a940aebd7222c87874c7e780f0d9376d5_icgraph.png" border="0" usemap="#aclass_cuboid_a940aebd7222c87874c7e780f0d9376d5_icgraph" alt=""/></div>
+<map name="aclass_cuboid_a940aebd7222c87874c7e780f0d9376d5_icgraph" id="aclass_cuboid_a940aebd7222c87874c7e780f0d9376d5_icgraph">
+<area shape="rect" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="888,99,1048,140"/>
+<area shape="rect" href="class_drone.html#a720acea4a98e74872e80c88a2f24faa6" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kadluba do pliku." alt="" coords="660,15,831,56"/>
+<area shape="rect" href="class_mnt__long.html#a702fb3916bd52fa185bb50e8f109aa6a" title="Metoda pozwalajaca zapisac gore ze zboczem do pliku." alt="" coords="661,81,829,108"/>
+<area shape="rect" href="class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331" title="Metoda pozwalajaca zapisac gore ze szczytem do pliku." alt="" coords="651,132,840,158"/>
+<area shape="rect" href="class_plateau.html#a856b51e1fe86e60ed79eec7fea0b6b0c" title="Metoda pozwalajaca zapisac plaskowyz do pliku." alt="" coords="667,182,824,209"/>
+<area shape="rect" href="class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="426,15,587,56"/>
+<area shape="rect" href="class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,22,163,49"/>
+<area shape="rect" href="class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,22,355,49"/>
+<area shape="rect" href="class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,73,363,100"/>
+<area shape="rect" href="class_mnt__long.html#ab0659884d54f799b6475869481290b63" title="Konstruktor wieloparametryczny klasy." alt="" coords="431,81,582,108"/>
+<area shape="rect" href="class_mnt__pointed.html#a760962397628cae67064bd4448cb6fc9" title="Konstruktor wieloparametryczny klasy." alt="" coords="411,132,603,158"/>
+<area shape="rect" href="class_plateau.html#aea5be59e1435d22107b0f6d40dae69a2" title="Konstruktor wieloparametryczny klasy." alt="" coords="443,182,571,209"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa7e28082277e96871e189ff01e12b825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e28082277e96871e189ff01e12b825">&#9670;&nbsp;</a></span>update_angleZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Cuboid::update_angleZ </td>
+          <td>(</td>
+          <td class="paramtype">double const &amp;&#160;</td>
+          <td class="paramname"><em>additional_angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalaja na aktualizowanie kata obrotu prostopadloscianu. </p>
+<p>Zadany dodatkowy kat obrotu prostopadloscianu zostanie zsumowany z aktualnym katem obrotu prostopadloscianu.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">additional_angle</td><td>- dodtkowy kat, o ktory prostopadloscian zostanie obrocony. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8cpp_source.html#l00113">113</a> pliku <a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_aa7e28082277e96871e189ff01e12b825_icgraph.png" border="0" usemap="#aclass_cuboid_aa7e28082277e96871e189ff01e12b825_icgraph" alt=""/></div>
+<map name="aclass_cuboid_aa7e28082277e96871e189ff01e12b825_icgraph" id="aclass_cuboid_aa7e28082277e96871e189ff01e12b825_icgraph">
+<area shape="rect" title="Metoda pozwalaja na aktualizowanie kata obrotu prostopadloscianu." alt="" coords="411,5,583,32"/>
+<area shape="rect" href="class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,5,363,32"/>
+<area shape="rect" href="class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,5,163,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a0d041761c3bcacdef76d36f3cb0e2dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d041761c3bcacdef76d36f3cb0e2dae">&#9670;&nbsp;</a></span>Center_of_solid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> Cuboid::Center_of_solid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wektor3D reprezentujacy srodek prostopadloscianu w przestrzeni globalnej. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8hh_source.html#l00039">39</a> pliku <a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a>.</p>
+
+</div>
+</div>
+<a id="af2aafeda12722dfcc866347973d5e01b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2aafeda12722dfcc866347973d5e01b">&#9670;&nbsp;</a></span>Global_corners</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> Cuboid::Global_corners[8]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie globalnym. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8hh_source.html#l00045">45</a> pliku <a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a>.</p>
+
+</div>
+</div>
+<a id="a89ded353cde79ecfe74c22b87ef6802c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89ded353cde79ecfe74c22b87ef6802c">&#9670;&nbsp;</a></span>Local_corners</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> Cuboid::Local_corners[8]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie lokalnym. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8hh_source.html#l00042">42</a> pliku <a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a>.</p>
+
+</div>
+</div>
+<a id="a4f4bce99caa1af15c3a5c108e9ead271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4bce99caa1af15c3a5c108e9ead271">&#9670;&nbsp;</a></span>Roration_angle_Zaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Cuboid::Roration_angle_Zaxis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wartosc double reprezentujaca kat obrotu prostopadloscianu w osi Z. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_cuboid_8hh_source.html#l00048">48</a> pliku <a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="_cuboid_8hh_source.html">Cuboid.hh</a></li>
+<li><a class="el" href="_cuboid_8cpp_source.html">Cuboid.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_cuboid.html">Cuboid</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

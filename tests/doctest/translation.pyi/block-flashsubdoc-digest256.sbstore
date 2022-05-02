@@ -1,0 +1,11 @@
+
+
+1615820973.686005145  Node Startup
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:334(SubscribeModels)] [topics: /rosout, /tf] Subscribed to Stage position model "robot_1"
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:358(SubscribeModels)] [topics: /rosout, /tf] Robot robot_1 provided 0 rangers and 0 cameras
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:334(SubscribeModels)] [topics: /rosout, /tf, /robot_0/odom, /robot_0/base_pose_ground_truth] Subscribed to Stage position model "robot_2"
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:358(SubscribeModels)] [topics: /rosout, /tf, /robot_0/odom, /robot_0/base_pose_ground_truth] Robot robot_2 provided 0 rangers and 0 cameras
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:334(SubscribeModels)] [topics: /rosout, /tf, /robot_0/odom, /robot_0/base_pose_ground_truth, /robot_1/odom, /robot_1/base_pose_ground_truth] Subscribed to Stage position model "robot_3"
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:358(SubscribeModels)] [topics: /rosout, /tf, /robot_0/odom, /robot_0/base_pose_ground_truth, /robot_1/odom, /robot_1/base_pose_ground_truth] Robot robot_3 provided 0 rangers and 0 cameras
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:334(SubscribeModels)] [topics: /rosout, /tf, /robot_0/odom, /robot_0/base_pose_ground_truth, /robot_1/odom, /robot_1/base_pose_ground_truth, /robot_2/odom, /robot_2/base_pose_ground_truth] Subscribed to Stage position model "robot_4"
+0.000000000 INFO /stageros [/tmp/binarydeb/ros-noetic-stage-ros-1.8.0/src/stageros.cpp:358(SubscribeModels)] [topics: /rosout, /tf, /robot_0/odom, /robot_0/base_pose_ground_truth, /robot_1/odom, /robot_1/base_pose_ground_truth, /robot_2/odom, /robot_2/base_pose_ground_truth] Robot robot_4 provided 0 rangers and 0 cameras

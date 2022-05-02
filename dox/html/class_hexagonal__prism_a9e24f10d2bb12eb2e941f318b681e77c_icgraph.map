@@ -1,0 +1,7 @@
+<map id="Hexagonal_prism::update_angle" name="Hexagonal_prism::update_angle">
+<area shape="rect" id="node1" title="Metoda pozwalaja na aktualizowanie kata obrotu graniastoslupa prawidlowego szesciokatnego." alt="" coords="513,15,703,56"/>
+<area shape="rect" id="node2" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="108,22,265,49"/>
+<area shape="rect" id="node4" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="119,73,255,100"/>
+<area shape="rect" id="node5" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="313,22,465,49"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,48,60,74"/>
+</map>

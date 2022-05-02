@@ -1,0 +1,13 @@
+<map id="PzG::AtrybutyRysowania::ZmienRozmiar" name="PzG::AtrybutyRysowania::ZmienRozmiar">
+<area shape="rect" id="node1" title="Zmienia rozmiar rysowania." alt="" coords="1248,75,1431,116"/>
+<area shape="rect" id="node2" href="$namespace_pz_g.html#a169c311f0e0b6ffadcd44e91e749f72d" title="Wczytuje z pliku listę punktów." alt="" coords="1007,75,1200,116"/>
+<area shape="rect" id="node3" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="724,75,959,116"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aee10e48fe1b9fba6e2897b4ccfa27aef" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="411,41,676,83"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="457,107,630,148"/>
+<area shape="rect" id="node6" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,114,163,141"/>
+<area shape="rect" id="node7" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,38,355,65"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="259,89,314,115"/>
+<area shape="rect" id="node9" href="$class_drone.html#a36092b3b7bf1794763bfbf8cafe2c623" title="Metoda wyznaczajaca, zapisujaca oraz rysujaca sciezke pojedynczego przelotu." alt="" coords="220,139,353,166"/>
+<area shape="rect" id="node10" href="$class_drone.html#a97fe0330e4a247df2be8d8b1dbff8773" title="Metoda wyznaczajaca, zapisujaca oraz rysujaca sciezke zwiadu." alt="" coords="213,190,361,217"/>
+<area shape="rect" id="node11" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,241,363,267"/>
+</map>

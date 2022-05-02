@@ -1,0 +1,9 @@
+<map id="Drone" name="Drone">
+<area shape="rect" id="node1" title="Klasa modelujaca w programie pojecie drona. Dron jest reprezentowany przez prostopadloscian&#45; kadlub,..." alt="" coords="162,409,223,436"/>
+<area shape="rect" id="node2" href="$class_scene__object.html" title="Klasa modelujaca w programie pojecie obiektu sceny." alt="" coords="5,305,113,332"/>
+<area shape="rect" id="node3" href="$class_vector.html" title=" " alt="" coords="283,95,385,121"/>
+<area shape="rect" id="node5" href="$class_cuboid.html" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ..." alt="" coords="239,305,306,332"/>
+<area shape="rect" id="node6" href="$class_geometrical__solid.html" title="Klasa modelujaca w programie pojecie bryły geometrycznej." alt="" coords="403,193,543,219"/>
+<area shape="rect" id="node7" href="$class_hexagonal__prism.html" title="Klasa modelujaca w programie pojecie graniastoslupa prawidlowego szesciokatnego, ktorego wierzcholki ..." alt="" coords="405,305,541,332"/>
+<area shape="rect" id="node4" href="$class_vector.html" title="Szablon klasy modelujacej w programie pojecie wektora." alt="" coords="274,5,394,32"/>
+</map>

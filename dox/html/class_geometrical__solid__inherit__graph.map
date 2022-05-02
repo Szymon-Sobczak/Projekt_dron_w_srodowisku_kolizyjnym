@@ -1,0 +1,8 @@
+<map id="Geometrical_solid" name="Geometrical_solid">
+<area shape="rect" id="node1" title="Klasa modelujaca w programie pojecie bryły geometrycznej." alt="" coords="157,5,297,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ..." alt="" coords="131,80,197,107"/>
+<area shape="rect" id="node6" href="$class_hexagonal__prism.html" title="Klasa modelujaca w programie pojecie graniastoslupa prawidlowego szesciokatnego, ktorego wierzcholki ..." alt="" coords="221,80,357,107"/>
+<area shape="rect" id="node3" href="$class_mnt__long.html" title="Klasa modelujaca w programie pojecie gory ze zboczem. Klasa dziedziczy po klasie Cuboid i Scene_objec..." alt="" coords="5,155,88,181"/>
+<area shape="rect" id="node4" href="$class_mnt__pointed.html" title="Klasa modelujaca w programie pojecie gory ze szczytem. Klasa dziedziczy po klasie Cuboid i Scene_obje..." alt="" coords="113,155,215,181"/>
+<area shape="rect" id="node5" href="$class_plateau.html" title="Klasa modelujaca w programie pojecie plaskowyzu. Klasa dziedziczy po klasie Cuboid i Scene_object." alt="" coords="239,155,310,181"/>
+</map>

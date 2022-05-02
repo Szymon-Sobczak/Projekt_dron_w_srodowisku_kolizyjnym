@@ -1,0 +1,4 @@
+<map id="Drone::get_size" name="Drone::get_size">
+<area shape="rect" id="node1" title="Metoda pozwalajca pobrac dane o wymiarach obiektu." alt="" coords="224,5,347,32"/>
+<area shape="rect" id="node2" href="$class_drone.html#a2519901775de45a4850e6987882bd400" title="Metoda pozwalajaca na sprawdzenie, czy dany dron koliduje z wybranym obiektem sceny." alt="" coords="5,5,176,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Drone::Calculate_and_save_to_file_drone" name="Drone::Calculate_and_save_to_file_drone">
+<area shape="rect" id="node1" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="411,15,572,56"/>
+<area shape="rect" id="node2" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,22,163,49"/>
+<area shape="rect" id="node3" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,22,355,49"/>
+<area shape="rect" id="node4" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,73,363,100"/>
+</map>

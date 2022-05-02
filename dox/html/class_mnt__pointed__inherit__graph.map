@@ -1,0 +1,6 @@
+<map id="Mnt_pointed" name="Mnt_pointed">
+<area shape="rect" id="node1" title="Klasa modelujaca w programie pojecie gory ze szczytem. Klasa dziedziczy po klasie Cuboid i Scene_obje..." alt="" coords="80,155,183,181"/>
+<area shape="rect" id="node2" href="$class_cuboid.html" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ..." alt="" coords="42,80,109,107"/>
+<area shape="rect" id="node3" href="$class_geometrical__solid.html" title="Klasa modelujaca w programie pojecie bryły geometrycznej." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node4" href="$class_scene__object.html" title="Klasa modelujaca w programie pojecie obiektu sceny." alt="" coords="133,80,241,107"/>
+</map>

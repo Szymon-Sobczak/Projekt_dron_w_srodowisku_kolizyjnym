@@ -1,0 +1,7 @@
+<map id="Scene_object" name="Scene_object">
+<area shape="rect" id="node1" title="Klasa modelujaca w programie pojecie obiektu sceny." alt="" coords="137,5,245,32"/>
+<area shape="rect" id="node2" href="$class_drone.html" title="Klasa modelujaca w programie pojecie drona. Dron jest reprezentowany przez prostopadloscian&#45; kadlub,..." alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node3" href="$class_mnt__long.html" title="Klasa modelujaca w programie pojecie gory ze zboczem. Klasa dziedziczy po klasie Cuboid i Scene_objec..." alt="" coords="91,80,173,107"/>
+<area shape="rect" id="node4" href="$class_mnt__pointed.html" title="Klasa modelujaca w programie pojecie gory ze szczytem. Klasa dziedziczy po klasie Cuboid i Scene_obje..." alt="" coords="198,80,301,107"/>
+<area shape="rect" id="node5" href="$class_plateau.html" title="Klasa modelujaca w programie pojecie plaskowyzu. Klasa dziedziczy po klasie Cuboid i Scene_object." alt="" coords="325,80,395,107"/>
+</map>

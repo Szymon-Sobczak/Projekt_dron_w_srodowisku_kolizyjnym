@@ -1,0 +1,5 @@
+<map id="PzG::AtrybutyRysowania::WezStyl" name="PzG::AtrybutyRysowania::WezStyl">
+<area shape="rect" id="node1" title="Udostępnia styl rysowania." alt="" coords="593,5,776,47"/>
+<area shape="rect" id="node2" href="$namespace_pz_g.html#a85d3a77f67c2724ba3675bc3ef05eb81" title="Dopisuje do polecenia rysowania wpisy z nazwami plików, w których są współrzędne punktów." alt="" coords="319,5,545,47"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aee10e48fe1b9fba6e2897b4ccfa27aef" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="5,5,271,47"/>
+</map>

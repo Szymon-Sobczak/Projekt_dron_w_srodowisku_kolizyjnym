@@ -1,0 +1,13 @@
+<map id="Geometrical_solid::update_scale" name="Geometrical_solid::update_scale">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na aktualizacje skali bryly geometrycznej." alt="" coords="883,162,1031,203"/>
+<area shape="rect" id="node2" href="$class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="627,15,828,56"/>
+<area shape="rect" id="node7" href="$class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a" title="Bezparametryczny konstrukotr klasy." alt="" coords="667,81,787,108"/>
+<area shape="rect" id="node8" href="$class_hexagonal__prism.html#a0a4a4742c43235703c3968db146b2f9d" title="Bezparametryczny konstrukotr klasy." alt="" coords="620,132,835,174"/>
+<area shape="rect" id="node9" href="$class_mnt__long.html#ab0659884d54f799b6475869481290b63" title="Konstruktor wieloparametryczny klasy." alt="" coords="652,198,803,225"/>
+<area shape="rect" id="node10" href="$class_mnt__pointed.html#a760962397628cae67064bd4448cb6fc9" title="Konstruktor wieloparametryczny klasy." alt="" coords="631,249,823,276"/>
+<area shape="rect" id="node11" href="$class_plateau.html#aea5be59e1435d22107b0f6d40dae69a2" title="Konstruktor wieloparametryczny klasy." alt="" coords="663,300,791,326"/>
+<area shape="rect" id="node3" href="$class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="411,15,572,56"/>
+<area shape="rect" id="node4" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,22,163,49"/>
+<area shape="rect" id="node5" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,22,355,49"/>
+<area shape="rect" id="node6" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,73,363,100"/>
+</map>

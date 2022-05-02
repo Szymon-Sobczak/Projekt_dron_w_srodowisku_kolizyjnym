@@ -1,0 +1,4 @@
+<map id="Drone::get_position" name="Drone::get_position">
+<area shape="rect" id="node1" title="Metoda pozwalajca pobrac pozycje obiektu sceny &#45; drona." alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a1e9cb9b3a754247d602b51d501537888" title="Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu." alt="" coords="203,5,347,32"/>
+</map>

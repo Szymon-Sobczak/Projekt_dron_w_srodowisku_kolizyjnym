@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Uruchamianie Programu</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="PageDoc"><div class="header">
+  <div class="headertitle">
+<div class="title">Uruchamianie Programu </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><ul>
+<li>Aby móc poprawnie skompilować program należy najpierw stworzyć katalog build, o ile go nie ma, a następnie użyć programu cmake poleceniem <code>cmake ..</code> do stworzenia pliku makefile w katalogu <code>build/</code>.</li>
+<li>Następnie należy użyć Makefile poleceniem <code>make</code>, aby skompilować program po wcześniejszym poprawnym stworzeniu pliku <code>Makefile</code> z pomocą&#160;cmake w katalogu <code>build/</code>.</li>
+<li>Po poprawnym skompilowaniu, aby uruchomić program, należy użyć polecenia <code>./main</code> w katalogu <code>build/</code>.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Uruchamianie Testów Programu</h1>
+<ul>
+<li>Testy jednostkowe programu uruchamiają się po wpisaniu do terminala <code>./unit_tests</code> po poprawnej kompilacji z użyciem pliku Makefile w katalogu <code>build/</code>.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Generowanie dokumentacji w Doxygen</h1>
+<ul>
+<li>Aby wygenerować pliki dokumentacji Doxygen, w postaci HTML, należy skorzystać z pliku konfiguracyjnego <code>Doxyfile.in</code> znajdującego się w głównym katalogu repozytorum. Aby to zrobić, należy skorzystać z polecenia <code>doxygen Doxyfile.in</code> w głównym katalogu repozytorium. Wygenerowane pliki będą znajdowały się w katalogu <code>dox/</code>. Do wygenerowania dokumentacji można również skorzystać z kreatora doxywizard lub cmake poleceniem <code>doxygen</code> w katalogu <code>build/</code>.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Wcześniej wygenerowana dokumentacja</h1>
+<ul>
+<li>Repozytorum posiada wcześniej wygenerowane najaktualniejsze pliki dokumentacji w katalogu <code>dox/</code>. Aby uruchomić stronę główną dokumetnacji należy uruchomić plik <code>./dox/html/index.html</code></li>
+</ul>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Building</h1>
+<p>Build by making a build directory (i.e. <code>build/</code>), run <code>cmake</code> in that dir, and then use <code>make</code> to build the desired target.</p>
+<p>Requirements: cmake, gnuplot, doxygen + dot</p>
+<p>Example:</p>
+<div class="fragment"><div class="line">&gt; mkdir build &amp;&amp; cd build</div>
+<div class="line">&gt; cmake .. # options: -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release], Debug is default</div>
+<div class="line">&gt; make</div>
+<div class="line">&gt; ./main</div>
+<div class="line">&gt; make test      # Makes and runs the tests.</div>
+<div class="line">&gt; make coverage  # Generate a coverage report.</div>
+<div class="line">&gt; make doc       # Generate html documentation.</div>
+</div><!-- fragment --><p>Things to remember:</p><ul>
+<li>changes to zad3/CMakeLists.txt with new files added, i.e.: <div class="fragment"><div class="line"><span class="preprocessor"># --------------------------------------------------------------------------------</span></div>
+<div class="line"><span class="preprocessor">#                         Locate files (change as needed).</span></div>
+<div class="line"><span class="preprocessor"># --------------------------------------------------------------------------------</span></div>
+<div class="line">set(SOURCES          # All .cpp files in src/</div>
+<div class="line">    src/lacze_do_gnuplota</div>
+<div class="line">    src/Matrix2x2.cpp</div>
+<div class="line">    src/Rectangle .cpp</div>
+<div class="line">    src/Vector2D.cpp</div>
+<div class="line">)</div>
+<div class="line">set(TESTFILES        <span class="preprocessor"># All .cpp files in tests/</span></div>
+<div class="line">    Vector2D.cpp</div>
+<div class="line">    Matrix2x2.cpp</div>
+<div class="line">    Rectangle.cpp</div>
+<div class="line">)</div>
+<div class="line">set(LIBRARY_NAME zad3)  <span class="preprocessor"># Default name for the library built from src</span><span class="comment">/*.cpp (change if you wish)</span></div>
+</div><!-- fragment --></li>
+<li>changes to zad3/tests/CMakeLists.txt with new files added, i.e.: <div class="fragment"><div class="line"><span class="preprocessor"># List all files containing tests. (Change as needed)</span></div>
+<div class="line">set(TESTFILES        # All .cpp files in tests/</div>
+<div class="line">    <a class="code" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>.cpp</div>
+<div class="line">    Wektor2D.cpp</div>
+<div class="line">    Macierz2x2.cpp</div>
+<div class="line">    Prostokat.cpp</div>
+<div class="line">)</div>
+<div class="ttc" id="amain_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdoc">Glowna funkcja programu.</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00015">main.cpp:15</a></div></div>
+</div><!-- fragment --> The <code><a class="el" href="main_8cpp.html" title="Plik zawierajacy &quot;main&quot; programu.">main.cpp</a></code> in the folder <code>tests</code> is needed. Only there we define <code>#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN</code>.</li>
+</ul>
+<p>The main loop of the program is in the <code>app</code> folder. </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

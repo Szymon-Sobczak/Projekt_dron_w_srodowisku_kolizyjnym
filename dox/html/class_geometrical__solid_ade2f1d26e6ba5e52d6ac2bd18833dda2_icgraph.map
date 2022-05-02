@@ -1,0 +1,13 @@
+<map id="Geometrical_solid::get_scale" name="Geometrical_solid::get_scale">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="1229,47,1377,89"/>
+<area shape="rect" id="node2" href="$class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="513,81,675,122"/>
+<area shape="rect" id="node7" href="$class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="997,47,1157,89"/>
+<area shape="rect" id="node9" href="$class_hexagonal__prism.html#a816173bc7296b7b9ae88da8cf3a56872" title="Metoda pozawlajaca na transforamacje graniastoslupa prawidlowego szesciokatnego z ukladu lokalnego do..." alt="" coords="972,113,1181,154"/>
+<area shape="rect" id="node3" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="108,63,265,89"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,113,60,140"/>
+<area shape="rect" id="node5" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="119,164,255,191"/>
+<area shape="rect" id="node6" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="313,63,465,89"/>
+<area shape="rect" id="node8" href="$class_drone.html#a720acea4a98e74872e80c88a2f24faa6" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kadluba do pliku." alt="" coords="738,47,909,89"/>
+<area shape="rect" id="node10" href="$class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="723,113,924,154"/>
+<area shape="rect" id="node11" href="$class_drone.html#a272c0597d236f80545bff08a4d29b330" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych wybranego rotora do pli..." alt="" coords="743,178,904,219"/>
+</map>

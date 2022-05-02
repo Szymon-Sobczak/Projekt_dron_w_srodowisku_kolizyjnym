@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Plik źródłowy main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('main_8cpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">main.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="main_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Executables must have the following defined if the library contains</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">doctest definitions. For builds with this disabled, e.g. code shipped to</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">users, this can be left out. */</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_scene_8hh.html">Scene.hh</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../inc/lacze_do_gnuplota.hh&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">   15</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(){</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   <span class="keywordtype">char</span> Option; <span class="comment">/* Inicjalizacja zmiennych tymczasowych */</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;   <span class="keywordtype">double</span> user_angle=0,distance = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;   <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nbr_of_act_drone=1, type_of_obstacle = 0, ID_nbr_of_obstacle=0;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;   <a class="code" href="class_vector.html">Vector3D</a> temp_scale, temp_position;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   <a class="code" href="class_vector.html">Vector3D</a> origin_position; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;   <a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> Link; <span class="comment">/* Zmienna potrzebna do wizualizacji rysunku sceny*/</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <a class="code" href="class_scene.html">Scene</a> Scenery(&amp;Link); <span class="comment">/* Inicjalizacja sceny */</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;   Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;   <span class="keywordflow">try</span>{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      Scenery.<a class="code" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a>(1);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;   </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="comment">/* Zapis i wyswietlenie stanu poczatkowego dronow */</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;Calculate_and_save_to_file_drone();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      Scenery.<a class="code" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a>(2);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;Calculate_and_save_to_file_drone();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      Scenery.<a class="code" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a>(1);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;Menu wyboru opcji:&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\ta - wybierz aktywnego drona&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tp - zadaj parametry przelotu&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\td - dodaj element powierzchni&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tu - usun element powierzchni&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tm - wyswietl menu&quot;</span> &lt;&lt; std::endl </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tz - wykonaj zwiad&quot;</span> &lt;&lt; std::endl &lt;&lt; std::endl</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tk - koniec dzialania programu&quot;</span> &lt;&lt; std::endl &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;Laczna ilosc obiektow Wektor3D: &quot;</span> &lt;&lt; <a class="code" href="class_vector.html#ab732e95a2e378c1447cf6e45849a3d63">Vector3D::get_counter_all_vectors</a>() &lt;&lt; std::endl;  </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      std::cout &lt;&lt; <span class="stringliteral">&quot;Aktualna ilosc obiektow Wektor3D: &quot;</span> &lt;&lt; <a class="code" href="class_vector.html#ada5b13803805ee4ae6e73fc6ec575cec">Vector3D::get_counter_actual_vectors</a>() &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <span class="keywordflow">while</span> (Option != <span class="charliteral">&#39;k&#39;</span>){ <span class="comment">/* Glowna petla menu, dzialajaca do czasu wybrania opcji zakonczenia- k */</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;         std::cout &lt;&lt; <span class="stringliteral">&quot;Aktualna pozycja drona aktywnego (x,y): &quot;</span> &lt;&lt; std::fixed &lt;&lt; std::setprecision(2) &lt;&lt; Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position()[0] &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position()[1] &lt;&lt; std::endl;; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;         std::cout &lt;&lt; <span class="stringliteral">&quot;Twoj wybor? (m - menu) &gt; &quot;</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;         std::cin &gt;&gt; Option;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;         <span class="keywordflow">switch</span>(Option){  </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;a&#39;</span>: <span class="comment">/* Opcja pozwalajaca na zmiane aktywnego drona */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Obecnie aktywny dron: &quot;</span>&lt;&lt; nbr_of_act_drone &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Wybor aktywnego drona: &quot;</span>&lt;&lt; std::endl;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;               </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;               Scenery.<a class="code" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a>(1);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Dron 1. Polozenie x: &quot;</span> </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                         &lt;&lt; std::fixed &lt;&lt; std::setprecision(5) &lt;&lt; Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position()[0] &lt;&lt; <span class="stringliteral">&quot;\ty: &quot;</span> </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                         &lt;&lt; std::fixed &lt;&lt; std::setprecision(5) &lt;&lt; Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position()[1] &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;               </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;               Scenery.<a class="code" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a>(2);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Dron 2. Polozenie x: &quot;</span>   </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                         &lt;&lt; std::fixed &lt;&lt; std::setprecision(5) &lt;&lt; Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position()[0] &lt;&lt; <span class="stringliteral">&quot;\ty: &quot;</span> </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                         &lt;&lt; std::fixed &lt;&lt; std::setprecision(5) &lt;&lt; Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position()[1] &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;               </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;               <span class="keywordflow">while</span> (<span class="keyword">true</span>){</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                  <span class="keywordflow">try</span>{</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Podaj numer drona, ktory ma byc aktywny: &quot;</span>&lt;&lt; std::endl;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        std::cin &gt;&gt; nbr_of_act_drone;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        <span class="keywordflow">if</span>(std::cin.fail() || nbr_of_act_drone == 0)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano bledny numer prostopadloscianu &quot;</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                        <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                           Scenery.<a class="code" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a>(nbr_of_act_drone);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                           <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                        }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                  }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                  <span class="keywordflow">catch</span> (std::invalid_argument &amp; f){ <span class="comment">/* W wyniku wyrzucenia bledu dot. wprowadzania liczby, program poinformuje o tym i usunie blad ze strumienia */</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                     std::cerr &lt;&lt; f.what() &lt;&lt; std::endl &lt;&lt; <span class="stringliteral">&quot;:/ Sprobuj jeszcze raz&quot;</span>  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                     std::cin.clear();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                     std::cin.ignore(10000,<span class="charliteral">&#39;\n&#39;</span>);   </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                  }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;               }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;p&#39;</span>: <span class="comment">/* Opcja pozwalajaca na przemieszenie aktywnego drona w okreslonym kierunku o okreslona dlugosc */</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;               <span class="keywordflow">while</span> (<span class="keyword">true</span>){</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                  <span class="keywordflow">try</span>{</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Podaj kat obrotu w stopniach &gt; &quot;</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                        std::cin &gt;&gt; user_angle;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                        <span class="keywordflow">if</span>(std::cin.fail())</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano bledna wartosc kata obrotu &quot;</span>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Podaj dlugosc lotu &gt; &quot;</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        std::cin &gt;&gt; distance;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                        <span class="keywordflow">if</span>(std::cin.fail())</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano bledna wartosc dlugosci lotu &quot;</span>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                        <span class="keywordflow">else</span>   </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                           <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                  }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                  <span class="keywordflow">catch</span> (std::invalid_argument &amp; f){ <span class="comment">/* W wyniku wyrzucenia bledu dot. wprowadzania liczby, program poinformuje o tym i usunie blad ze strumienia */</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                        std::cerr &lt;&lt; f.what() &lt;&lt; std::endl &lt;&lt; <span class="stringliteral">&quot;:/ Sprobuj jeszcze raz&quot;</span>  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                        std::cin.clear();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                        std::cin.ignore(10000,<span class="charliteral">&#39;\n&#39;</span>);   </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                  }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;               }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;               </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;               origin_position = Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_position();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;               <span class="comment">/* Wyrysowanie sciezki przelotu */</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Rysowanie zaplanowanej sciezki przelotu ... &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;plan_path(user_angle,distance, origin_position, Link);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e">DodajNazwePliku</a>(<span class="stringliteral">&quot;../datasets/path.dat&quot;</span>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;               </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;               <span class="comment">/* Wykonanie sekwencji ruchow drona */</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Wznoszenie ... &quot;</span> &lt;&lt; std::endl;    </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_verical(<a class="code" href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a>, Link);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                  </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Przelot ... &quot;</span> &lt;&lt; std::endl;    </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(distance,user_angle, Link);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;               </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;               <span class="comment">/* Petla sprawdzajaca czy dochodzi do kolizji aktywnego drona z innymi okiektami sceny */</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;               <span class="keywordflow">while</span>(Scenery.<a class="code" href="class_scene.html#a6c99bcca299b4460ea25a84c36f0c076">check_if_drone_collides</a>(Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_obj_ID())){</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                  <span class="comment">/* Zaplanowanie i narysowanie nowej sciezki przelotu, gdy zostanie wykryta kolizja */</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                  std::cout &lt;&lt; <span class="stringliteral">&quot;Rysowanie nowej sciezki przelotu ...  &quot;</span> &lt;&lt; std::endl;   </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                  Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;plan_path(0,distance += Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_size()[0] * 2, origin_position, Link);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                  usleep(100000);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                  </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                  <span class="comment">/* Prosta autonomia, dron po wykryciu kolizji sam odlatuje o zadana odleglosc. */</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                  std::cout &lt;&lt; <span class="stringliteral">&quot;Lot zostal wydluzony ...  &quot;</span> &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                  Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;get_size()[0] * 2, 0, Link);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                  usleep(100000);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                  std::cout &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;               }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;               <span class="comment">/* Gdy dron znajdzie odpowiednie miejsce do ladowania, wyladuje*/</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Ladowisko dostepne ... &quot;</span> &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Ladowanie ... &quot;</span> &lt;&lt; std::endl;    </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_verical(-<a class="code" href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a>, Link);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Dron wyladowal ... &quot;</span> &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;               </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7fa4e775e1aee74869fae174c567c2a6">UsunNazwePliku</a>(<span class="stringliteral">&quot;../datasets/path.dat&quot;</span>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;m&#39;</span>: <span class="comment">/* Opcja wyswietlajaca dostepne w menu opcje */</span>  </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Menu wyboru opcji:&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\ta - wybierz aktywnego drona&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tp - zadaj parametry przelotu&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\td - dodaj element powierzchni&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tu - usun element powierzchni&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tm - wyswietl menu&quot;</span> &lt;&lt; std::endl </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tz - wykonaj zwiad&quot;</span> &lt;&lt; std::endl &lt;&lt; std::endl</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;               &lt;&lt; <span class="stringliteral">&quot;\tk - koniec dzialania programu&quot;</span> &lt;&lt; std::endl &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;z&#39;</span>: <span class="comment">/* Opcja pozwalajaca na wykonanie zwiadu, predefiniowanego ruchu po osmiokacie */</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;               </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Wykonywanie zwiadu ...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;               <span class="comment">/* Wyrysowanie sciezki zwiadu */</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Rysowanie zaplanowanej sciezki przelotu ... &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;plan_reacon(Link);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e">DodajNazwePliku</a>(<span class="stringliteral">&quot;../datasets/path_reacon.dat&quot;</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="comment">/* Wykonanie sekwencji ruchow drona podczas zwiadu */</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Wznoszenie ... &quot;</span> &lt;&lt; std::endl;    </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_verical(<a class="code" href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a>,Link);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;               </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Przelot ... &quot;</span> &lt;&lt; std::endl;   </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(<a class="code" href="size_8hh.html#aa2fc9d01d8c980e9383e89eb7450527e">REACON_RADIUS</a>,0,Link);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;update_angle(112.5);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(<a class="code" href="size_8hh.html#aa2fc9d01d8c980e9383e89eb7450527e">REACON_RADIUS</a>/sqrt((2+sqrt(2))/2),112.5,Link);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;               <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0;i &lt; 7 ; ++i){</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                  Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;update_angle(45);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                  Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(<a class="code" href="size_8hh.html#aa2fc9d01d8c980e9383e89eb7450527e">REACON_RADIUS</a>/sqrt((2+sqrt(2))/2),45,Link);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                  usleep(100000);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;               }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            </div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;update_angle(112.5);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(<a class="code" href="size_8hh.html#aa2fc9d01d8c980e9383e89eb7450527e">REACON_RADIUS</a>,112.5,Link);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;               usleep(100000);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;update_angle(180);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_horizontal(0,180,Link);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;               usleep(10000);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Ladowanie ... &quot;</span> &lt;&lt; std::endl;    </div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;               Scenery.<a class="code" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a>()-&gt;go_verical(-<a class="code" href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a>,Link);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;               usleep(100000); </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160; </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Dron wyladowal ... &quot;</span> &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7fa4e775e1aee74869fae174c567c2a6">UsunNazwePliku</a>(<span class="stringliteral">&quot;../datasets/path_reacon.dat&quot;</span>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;               Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160; </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;d&#39;</span>: <span class="comment">/* Opcja pozwalajaca na dodanie nowej przeszkody do sceny  */</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;               <span class="keywordflow">while</span> (<span class="keyword">true</span>){</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                  <span class="keywordflow">try</span>{</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Wybierz rodzaj powierzchniowego elementu&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                  &lt;&lt; <span class="stringliteral">&quot;\t1 - Gora z ostrym szczytem &quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                                  &lt;&lt; <span class="stringliteral">&quot;\t2 - Gora z grania &quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                  &lt;&lt; <span class="stringliteral">&quot;\t3 - Plaskowyz &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Wprowadz numer typu elementu &gt; &quot;</span>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                        std::cin &gt;&gt; type_of_obstacle;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                        <span class="keywordflow">if</span> (std::cin.fail() || type_of_obstacle &gt; 3)</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano bledna wartosc typu przeszkody &quot;</span>);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                              </div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Podaj skale wzdluz kolejnych osi OX, OY, OZ.&quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                  &lt;&lt; <span class="stringliteral">&quot;Skala w osi OZ nie moze przekroczyc: &quot;</span> &lt;&lt; <a class="code" href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a> - 10 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                                  &lt;&lt; <span class="stringliteral">&quot;Wprowadz skale: OX OY OZ &gt; &quot;</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                        std::cin &gt;&gt; temp_scale;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160; </div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                        <span class="keywordflow">if</span>(temp_scale[2] &gt; <a class="code" href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a> - 10)</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano zbyt duza wartosc skali w osi OZ &quot;</span>);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Podaj wspolrzedne srodka podstawy x, y. &quot;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                                  &lt;&lt; <span class="stringliteral">&quot;Wprowadz wspolrzedne: x y &gt; &quot;</span>;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                        std::cin &gt;&gt; temp_position[0]  &gt;&gt; temp_position[1];</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                        temp_position[2] = temp_scale[2]/2; <span class="comment">/* Wyznaczenie przesuniecia srodka bryly od podloza */</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                        <span class="keywordflow">if</span>(std::cin.fail())</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano bledna wartosc dlugosci lotu &quot;</span>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                        <span class="keywordflow">else</span>   {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                           <span class="keywordflow">if</span>(type_of_obstacle == 1)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                              Scenery.<a class="code" href="class_scene.html#a29f09e273cb7b32fe8172c03babf7953">add_obstacle_mnt_pointed</a>(temp_position, temp_scale);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                           <span class="keywordflow">if</span>(type_of_obstacle == 2)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                              Scenery.<a class="code" href="class_scene.html#a3a4e44a5a2a1b66afa28d810ef6180ab">add_obstacle_mnt_long</a>(temp_position, temp_scale);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                           <span class="keywordflow">if</span>(type_of_obstacle == 3)</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                              Scenery.<a class="code" href="class_scene.html#ac485e107d2e54df098e1fe6243bf3ebd">add_obstacle_plateau</a>(temp_position, temp_scale);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;               </div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                           std::cout &lt;&lt; <span class="stringliteral">&quot;Element zostal dodany do sceny&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                           <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                        }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                  }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                  <span class="keywordflow">catch</span> (std::invalid_argument &amp; f){ <span class="comment">/* W wyniku wyrzucenia bledu dot. wprowadzania liczby, program poinformuje o tym i usunie blad ze strumienia */</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                        std::cerr &lt;&lt; f.what() &lt;&lt; std::endl &lt;&lt; <span class="stringliteral">&quot;:/ Sprobuj jeszcze raz&quot;</span>  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        std::cin.clear();</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                        std::cin.ignore(10000,<span class="charliteral">&#39;\n&#39;</span>);   </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                  }</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;               }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;u&#39;</span>: <span class="comment">/* Opcja pozwalajaca na usuniecie przeszkody ze sceny */</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;               <span class="keywordflow">while</span> (<span class="keyword">true</span>){</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                  <span class="keywordflow">try</span>{</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Wybierz element powierzchni do usuniecia lub anuluj usuwanie podajac numer spoza listy: &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                        Scenery.<a class="code" href="class_scene.html#afbc16b21c9b74d2df163db2fa3182e6b">list_obstacles</a>();</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                        std::cout &lt;&lt; <span class="stringliteral">&quot;Podaj numer elementu &gt; &quot;</span>;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                        std::cin &gt;&gt; ID_nbr_of_obstacle;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                        </div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                        <span class="keywordflow">if</span>(std::cin.fail())</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                           <span class="keywordflow">throw</span> std::invalid_argument(<span class="stringliteral">&quot;:/ Podano bledny format numeru elementu &quot;</span>);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                        <span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                           Scenery.<a class="code" href="class_scene.html#a568b0f9359938f784655a57df4118a5e">delete_obstacle</a>(ID_nbr_of_obstacle);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                           Link.<a class="code" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">Rysuj</a>();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                           std::cout &lt;&lt; <span class="stringliteral">&quot;Element zostal usuniety ze sceny&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                           <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                        }      </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                  }</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                  <span class="keywordflow">catch</span> (std::invalid_argument &amp; f){ <span class="comment">/* W wyniku wyrzucenia bledu dot. wprowadzania liczby, program poinformuje o tym i usunie blad ze strumienia */</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                        std::cerr &lt;&lt; f.what() &lt;&lt; std::endl &lt;&lt; <span class="stringliteral">&quot;:/ Przerwanie operacji usuwania &quot;</span>  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                        std::cin.clear();</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                        std::cin.ignore(10000,<span class="charliteral">&#39;\n&#39;</span>);   </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                  }</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;               }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160; </div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;k&#39;</span>: <span class="comment">/* Opcja konczaca program */</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;Konczenie pracy programu ...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160; </div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <span class="keywordflow">default</span>: <span class="comment">/* dzialanie, gdy podana opcja nie bedzie uprzednio zdefiniowana */</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;               std::cout &lt;&lt; <span class="stringliteral">&quot;:/ Opcja niezdefiniowana&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;         }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;         </div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;         <span class="comment">/* Wypisanie licznika wszystkich instancji Wektora3D w porgramie, ktore powstaly */</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;         std::cout &lt;&lt; <span class="stringliteral">&quot;Laczna ilosc obiektow Wektor3D: &quot;</span> &lt;&lt; <a class="code" href="class_vector.html#ab732e95a2e378c1447cf6e45849a3d63">Vector3D::get_counter_all_vectors</a>() &lt;&lt; std::endl;  </div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;         <span class="comment">/* Wypisanie licznika akutalnie istniejacych instancji Wektora3D w porgramie */</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;         std::cout &lt;&lt; <span class="stringliteral">&quot;Aktualna ilosc obiektow Wektor3D: &quot;</span> &lt;&lt; <a class="code" href="class_vector.html#ada5b13803805ee4ae6e73fc6ec575cec">Vector3D::get_counter_actual_vectors</a>() &lt;&lt; std::endl &lt;&lt; std::endl;   </div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;   }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;   <span class="keywordflow">catch</span> (std::runtime_error &amp; e){ <span class="comment">/* W wyniku wyrzucenia bledu program poinformuje o tym i zakonczy swoje dzialanie */</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      std::cerr &lt;&lt; <span class="stringliteral">&quot;:O Wystapil blad!&quot;</span>&lt;&lt; std::endl &lt;&lt; e.what() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      exit(1);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;   }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;   <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;} </div>
+<div class="ttc" id="a_scene_8hh_html"><div class="ttname"><a href="_scene_8hh.html">Scene.hh</a></div><div class="ttdoc">Definicja klasy Scene.</div></div>
+<div class="ttc" id="aclass_pz_g_1_1_lacze_do_g_n_u_plota_html"><div class="ttname"><a href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a></div><div class="ttdoc">Klasa realizuje interfejs do programu GNUPlot.</div><div class="ttdef"><b>Definition:</b> <a href="lacze__do__gnuplota_8hh_source.html#l00331">lacze_do_gnuplota.hh:331</a></div></div>
+<div class="ttc" id="aclass_pz_g_1_1_lacze_do_g_n_u_plota_html_a065f5b8402737cc62b0ad4f66d028335"><div class="ttname"><a href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335">PzG::LaczeDoGNUPlota::Rysuj</a></div><div class="ttdeci">bool Rysuj()</div><div class="ttdoc">Generuje polecenie rysowania i przesyła je do gnuplota.</div><div class="ttdef"><b>Definition:</b> <a href="lacze__do__gnuplota_8cpp_source.html#l01451">lacze_do_gnuplota.cpp:1451</a></div></div>
+<div class="ttc" id="aclass_pz_g_1_1_lacze_do_g_n_u_plota_html_a7fa4e775e1aee74869fae174c567c2a6"><div class="ttname"><a href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7fa4e775e1aee74869fae174c567c2a6">PzG::LaczeDoGNUPlota::UsunNazwePliku</a></div><div class="ttdeci">bool UsunNazwePliku(const InfoPlikuDoRysowania *wInfoPliku, TypDostepuDoZasobu Dostep=DZ_Lokalny)</div><div class="ttdoc">Usuwa z listy nazw plików z danymi do rysowania usuwa wybraną nazwę.</div><div class="ttdef"><b>Definition:</b> <a href="lacze__do__gnuplota_8cpp_source.html#l00132">lacze_do_gnuplota.cpp:132</a></div></div>
+<div class="ttc" id="aclass_pz_g_1_1_lacze_do_g_n_u_plota_html_aa815ce8ec16e12fc246cf422e562869e"><div class="ttname"><a href="class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e">PzG::LaczeDoGNUPlota::DodajNazwePliku</a></div><div class="ttdeci">InfoPlikuDoRysowania &amp; DodajNazwePliku(const char *sNazwaPliku, bool SprawdzIstnienie=false, TypDostepuDoZasobu Dostep=DZ_Lokalny)</div><div class="ttdoc">Dodaje nazwę pliku.</div><div class="ttdef"><b>Definition:</b> <a href="lacze__do__gnuplota_8cpp_source.html#l00332">lacze_do_gnuplota.cpp:332</a></div></div>
+<div class="ttc" id="aclass_scene_html"><div class="ttname"><a href="class_scene.html">Scene</a></div><div class="ttdoc">Klasa modelujaca w programie pojecie Sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8hh_source.html#l00052">Scene.hh:52</a></div></div>
+<div class="ttc" id="aclass_scene_html_a29f09e273cb7b32fe8172c03babf7953"><div class="ttname"><a href="class_scene.html#a29f09e273cb7b32fe8172c03babf7953">Scene::add_obstacle_mnt_pointed</a></div><div class="ttdeci">void add_obstacle_mnt_pointed(Vector3D const &amp;position, Vector3D const &amp;scale)</div><div class="ttdoc">Metoda pozwalajaca dodac nowa przeszkode - gore ze szczytem do sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00199">Scene.cpp:199</a></div></div>
+<div class="ttc" id="aclass_scene_html_a3a4e44a5a2a1b66afa28d810ef6180ab"><div class="ttname"><a href="class_scene.html#a3a4e44a5a2a1b66afa28d810ef6180ab">Scene::add_obstacle_mnt_long</a></div><div class="ttdeci">void add_obstacle_mnt_long(Vector3D const &amp;position, Vector3D const &amp;scale)</div><div class="ttdoc">Metoda pozwalajaca dodac nowa przeszkode - zbocze do sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00178">Scene.cpp:178</a></div></div>
+<div class="ttc" id="aclass_scene_html_a47624ea43c8ab2165e46b8c93542c937"><div class="ttname"><a href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">Scene::use_active_drone</a></div><div class="ttdeci">std::shared_ptr&lt; Drone &gt; use_active_drone()</div><div class="ttdoc">Metoda sluzaca probraniu wskaznika na aktywnego drona.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00131">Scene.cpp:131</a></div></div>
+<div class="ttc" id="aclass_scene_html_a568b0f9359938f784655a57df4118a5e"><div class="ttname"><a href="class_scene.html#a568b0f9359938f784655a57df4118a5e">Scene::delete_obstacle</a></div><div class="ttdeci">void delete_obstacle(int obstacle_ID)</div><div class="ttdoc">Metoda pozwalajaca usunac wybrana przeszkode ze sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00243">Scene.cpp:243</a></div></div>
+<div class="ttc" id="aclass_scene_html_a6c99bcca299b4460ea25a84c36f0c076"><div class="ttname"><a href="class_scene.html#a6c99bcca299b4460ea25a84c36f0c076">Scene::check_if_drone_collides</a></div><div class="ttdeci">bool check_if_drone_collides(int drone_ID)</div><div class="ttdoc">Metoda pozwalajaca na sprawdzenie czy wybrany dron, wchodzi w kolizje z innymi obiektami sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00278">Scene.cpp:278</a></div></div>
+<div class="ttc" id="aclass_scene_html_ac485e107d2e54df098e1fe6243bf3ebd"><div class="ttname"><a href="class_scene.html#ac485e107d2e54df098e1fe6243bf3ebd">Scene::add_obstacle_plateau</a></div><div class="ttdeci">void add_obstacle_plateau(Vector3D const &amp;position, Vector3D const &amp;scale)</div><div class="ttdoc">Metoda pozwalajaca dodac nowa przeszkode - plaskowyz do sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00156">Scene.cpp:156</a></div></div>
+<div class="ttc" id="aclass_scene_html_ae5d0664c0aa040eaefd9934604b14052"><div class="ttname"><a href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">Scene::choose_drone</a></div><div class="ttdeci">void choose_drone(int active_drone)</div><div class="ttdoc">Metoda sluzaca zmianie numeru aktywnego drona.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00095">Scene.cpp:95</a></div></div>
+<div class="ttc" id="aclass_scene_html_afbc16b21c9b74d2df163db2fa3182e6b"><div class="ttname"><a href="class_scene.html#afbc16b21c9b74d2df163db2fa3182e6b">Scene::list_obstacles</a></div><div class="ttdeci">void list_obstacles()</div><div class="ttdoc">Metoda pozwalajaca wylistowac wszystkie przeszkody na scenie.</div><div class="ttdef"><b>Definition:</b> <a href="_scene_8cpp_source.html#l00229">Scene.cpp:229</a></div></div>
+<div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
+<div class="ttc" id="aclass_vector_html_ab732e95a2e378c1447cf6e45849a3d63"><div class="ttname"><a href="class_vector.html#ab732e95a2e378c1447cf6e45849a3d63">Vector&lt; 3 &gt;::get_counter_all_vectors</a></div><div class="ttdeci">static int get_counter_all_vectors()</div><div class="ttdoc">Metoda statyczna pozwalajaca pobrac liczbe wszystich instancji obietkow Vector&lt;Size&gt;.</div><div class="ttdef"><b>Definition:</b> <a href="vector_8hh_source.html#l00059">vector.hh:177</a></div></div>
+<div class="ttc" id="aclass_vector_html_ada5b13803805ee4ae6e73fc6ec575cec"><div class="ttname"><a href="class_vector.html#ada5b13803805ee4ae6e73fc6ec575cec">Vector&lt; 3 &gt;::get_counter_actual_vectors</a></div><div class="ttdeci">static int get_counter_actual_vectors()</div><div class="ttdoc">Metoda statyczna pozwalajaca pobrac liczbe aktualnie istniejacych instancji obietkow Vector&lt;Size&gt;.</div><div class="ttdef"><b>Definition:</b> <a href="vector_8hh_source.html#l00056">vector.hh:168</a></div></div>
+<div class="ttc" id="amain_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdoc">Glowna funkcja programu.</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00015">main.cpp:15</a></div></div>
+<div class="ttc" id="asize_8hh_html_a4deee3e7872111d894180a18c895e9c5"><div class="ttname"><a href="size_8hh.html#a4deee3e7872111d894180a18c895e9c5">ALTITUDE</a></div><div class="ttdeci">constexpr double ALTITUDE</div><div class="ttdoc">Wysokosc na jaka wznosi sie dron.</div><div class="ttdef"><b>Definition:</b> <a href="size_8hh_source.html#l00018">size.hh:18</a></div></div>
+<div class="ttc" id="asize_8hh_html_aa2fc9d01d8c980e9383e89eb7450527e"><div class="ttname"><a href="size_8hh.html#aa2fc9d01d8c980e9383e89eb7450527e">REACON_RADIUS</a></div><div class="ttdeci">constexpr int REACON_RADIUS</div><div class="ttdoc">Odleglosc na jaka dron odlatuje od pozycji poczatkowej. aby rozpoczac zwiad.</div><div class="ttdef"><b>Definition:</b> <a href="size_8hh_source.html#l00021">size.hh:21</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d422163b96683743ed3963d4aac17747.html">app</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

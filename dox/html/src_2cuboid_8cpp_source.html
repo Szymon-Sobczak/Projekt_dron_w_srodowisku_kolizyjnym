@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 1.: Plik źródłowy Cuboid.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 1.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('src_2cuboid_8cpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">src/cuboid.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="src_2cuboid_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;Cuboid.hh&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid::Cuboid</a>(){</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">double</span> values[3] = {10,8,6};</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_vector.html">Vector3D</a> fusledge_scale(values);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3">update_scale</a>(fusledge_scale);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">double</span> v_Apx1[3]={-0.5,0.5,-0.5},v_Apx2[3]={-0.5,-0.5,-0.5},v_Apx3[3]={0.5,0.5,-0.5},v_Apx4[3]={0.5,-0.5,-0.5},</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;           v_Apx5[3]={0.5,0.5,0.5},v_Apx6[3]={0.5,-0.5,0.5},v_Apx7[3]={-0.5,0.5,0.5},v_Apx8[3]={-0.5,-0.5,0.5};</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_vector.html">Vector3D</a> Apx1(v_Apx1),Apx2(v_Apx2),Apx3(v_Apx3),Apx4(v_Apx4),Apx5(v_Apx5),Apx6(v_Apx6),Apx7(v_Apx7),Apx8(v_Apx8);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[0] = Apx1;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[1] = Apx2;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[2] = Apx3;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[3] = Apx4;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[4] = Apx5;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[5] = Apx6;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[6] = Apx7;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[7] = Apx8;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_cuboid.html#a3548fc5a1e0cffaf1f5b89e10e3306bb">   38</a></span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Roration_angle_Zaxis</a> = 0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">   48</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Cuboid::Transform_to_global_coords</a>(<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; vec){</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_cuboid.html#a80cb095d61312a85ae134e8bb9b3698e">Center_of_cuboid</a> = vec;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_matrix.html">Matrix3x3</a> Rotation_matrixZ = <a class="code" href="matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd">Fill_matrix_OZ</a>(<a class="code" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Roration_angle_Zaxis</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; i &lt; 8; ++i)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="class_cuboid.html#a1ab09c73694461821ca2051a96e9f7d6">Global_corners</a> [i] = Rotation_matrixZ * (<a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[i] * <a class="code" href="class_geometrical__solid.html#ade2f1d26e6ba5e52d6ac2bd18833dda2">get_scale</a>()) + <a class="code" href="class_cuboid.html#a80cb095d61312a85ae134e8bb9b3698e">Center_of_cuboid</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">const</span> <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">Cuboid::operator [] </a>(<span class="keywordtype">int</span> index)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> (index &lt; 0 || index &gt;= <a class="code" href="size_8hh.html#a91e52f45f6f11b18c0b4fec8fcdc9d7a">CORNERS</a>) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Bledna wartosc indeksu wierzcholka prostopadloscianu&quot;</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    } </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_cuboid.html#a1ab09c73694461821ca2051a96e9f7d6">Global_corners</a>[index];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">Cuboid::operator[]</a>(<span class="keywordtype">int</span> index) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">if</span> (index &lt; 0 || index &gt;= <a class="code" href="size_8hh.html#a91e52f45f6f11b18c0b4fec8fcdc9d7a">CORNERS</a>) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Bledna wartosc indeksu wierzcholka prostopadloscianu&quot;</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    } </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">const_cast &lt;</span><a class="code" href="class_vector.html">Vector3D</a> &amp;<span class="keyword">&gt;</span> (<span class="keyword">const_cast &lt;</span><span class="keyword">const </span><a class="code" href="class_cuboid.html">Cuboid</a> *<span class="keyword">&gt;</span> (<span class="keyword">this</span>)-&gt;<span class="keyword">operator</span>[](index));</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">const</span> <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">Cuboid::operator () </a>(<span class="keywordtype">int</span> index)<span class="keyword"> const</span>{</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">   89</a></span>&#160;    <span class="keywordflow">if</span> (index &lt; 0 || index &gt;= <a class="code" href="size_8hh.html#a91e52f45f6f11b18c0b4fec8fcdc9d7a">CORNERS</a>) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Bledna wartosc indeksu wierzcholka prostopadloscianu&quot;</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    } </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Local_corners</a>[index];</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="class_cuboid.html#a8a2bbb8949b81152fc8ff3b828cbeada">  101</a></span>&#160; <a class="code" href="class_vector.html">Vector3D</a> &amp; <a class="code" href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">Cuboid::operator () </a>(<span class="keywordtype">int</span> index) {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span> (index &lt; 0 || index &gt;= <a class="code" href="size_8hh.html#a91e52f45f6f11b18c0b4fec8fcdc9d7a">CORNERS</a>) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="class_cuboid.html#a20d49aa2bad1faf97f10b482b574a86d">  103</a></span>&#160;        <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;Bledna wartosc indeksu wierzcholka prostopadloscianu&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    } </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">const_cast &lt;</span><a class="code" href="class_vector.html">Vector3D</a> &amp;<span class="keyword">&gt;</span> (<span class="keyword">const_cast &lt;</span><span class="keyword">const </span><a class="code" href="class_cuboid.html">Cuboid</a> *<span class="keyword">&gt;</span> (<span class="keyword">this</span>)-&gt;<span class="keyword">operator</span>()(index));</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">  114</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">Cuboid::update_angleZ</a>(<span class="keywordtype">double</span> <span class="keyword">const</span> &amp; additional_angle){</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;     <a class="code" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Roration_angle_Zaxis</a> += additional_angle;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="inc_2_cuboid_8hh.html#a7a58991b195d6c902e2ee633d7d4e0d3">  117</a></span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">  124</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">Cuboid::get_angle</a>()<span class="keyword"> const</span>{</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Roration_angle_Zaxis</a>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;}</div>
+<div class="ttc" id="aclass_cuboid_html"><div class="ttname"><a href="class_cuboid.html">Cuboid</a></div><div class="ttdoc">Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ...</div><div class="ttdef"><b>Definition:</b> <a href="inc_2_cuboid_8hh_source.html#l00035">inc/Cuboid.hh:35</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a07a687d9ca38998c19d8258bcb6eb4df"><div class="ttname"><a href="class_cuboid.html#a07a687d9ca38998c19d8258bcb6eb4df">Cuboid::operator[]</a></div><div class="ttdeci">const Vector3D &amp; operator[](int index) const</div><div class="ttdoc">Przeciazenie operatora indeksujacego.</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00060">src/cuboid.cpp:60</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1ab09c73694461821ca2051a96e9f7d6"><div class="ttname"><a href="class_cuboid.html#a1ab09c73694461821ca2051a96e9f7d6">Cuboid::Global_corners</a></div><div class="ttdeci">Vector3D Global_corners[8]</div><div class="ttdoc">Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie globalnym.</div><div class="ttdef"><b>Definition:</b> <a href="inc_2_cuboid_8hh_source.html#l00044">inc/Cuboid.hh:44</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1abf60e93d024b7a01ee5b1a48f1f08a"><div class="ttname"><a href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid::Cuboid</a></div><div class="ttdeci">Cuboid()</div><div class="ttdoc">Bezparametryczny konstrukotr klasy.</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00015">src/cuboid.cpp:15</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a46a9dbfb801dcd0e0a7e9773be14520a"><div class="ttname"><a href="class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a">Cuboid::get_angle</a></div><div class="ttdeci">double get_angle() const</div><div class="ttdoc">Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00124">src/cuboid.cpp:124</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a4f4bce99caa1af15c3a5c108e9ead271"><div class="ttname"><a href="class_cuboid.html#a4f4bce99caa1af15c3a5c108e9ead271">Cuboid::Roration_angle_Zaxis</a></div><div class="ttdeci">double Roration_angle_Zaxis</div><div class="ttdoc">Wartosc double reprezentujaca kat obrotu prostopadloscianu w osi Z.</div><div class="ttdef"><b>Definition:</b> <a href="inc_2_cuboid_8hh_source.html#l00047">inc/Cuboid.hh:47</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a80cb095d61312a85ae134e8bb9b3698e"><div class="ttname"><a href="class_cuboid.html#a80cb095d61312a85ae134e8bb9b3698e">Cuboid::Center_of_cuboid</a></div><div class="ttdeci">Vector3D Center_of_cuboid</div><div class="ttdoc">Wektor3D reprezentujacy srodek prostopadloscianu w przestrzeni globalnej.</div><div class="ttdef"><b>Definition:</b> <a href="inc_2_cuboid_8hh_source.html#l00038">inc/Cuboid.hh:38</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a940aebd7222c87874c7e780f0d9376d5"><div class="ttname"><a href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Cuboid::Transform_to_global_coords</a></div><div class="ttdeci">void Transform_to_global_coords(Vector3D const &amp;vec)</div><div class="ttdoc">Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny.</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00048">src/cuboid.cpp:48</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a9b20f9a82732a5ac054e3df9c58da330"><div class="ttname"><a href="class_cuboid.html#a9b20f9a82732a5ac054e3df9c58da330">Cuboid::operator()</a></div><div class="ttdeci">const Vector3D &amp; operator()(int index) const</div><div class="ttdoc">Przeciazenie operatora funkcyjnego.</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00089">src/cuboid.cpp:89</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a9b8895ef5e984b93de10887e014ac9af"><div class="ttname"><a href="class_cuboid.html#a9b8895ef5e984b93de10887e014ac9af">Cuboid::Local_corners</a></div><div class="ttdeci">Vector3D Local_corners[8]</div><div class="ttdoc">Tablica wektorow3D reprezentujacych rozklad wierzcholkow prostopadloscianu w ukladzie lokalnym.</div><div class="ttdef"><b>Definition:</b> <a href="inc_2_cuboid_8hh_source.html#l00041">inc/Cuboid.hh:41</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_aa7e28082277e96871e189ff01e12b825"><div class="ttname"><a href="class_cuboid.html#aa7e28082277e96871e189ff01e12b825">Cuboid::update_angleZ</a></div><div class="ttdeci">void update_angleZ(double const &amp;additional_angle)</div><div class="ttdoc">Metoda pozwalaja na aktualizowanie kata obrotu prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00114">src/cuboid.cpp:114</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html_ac1b0e258250344308e07f7f7175e19f3"><div class="ttname"><a href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3">Geometrical_solid::update_scale</a></div><div class="ttdeci">void update_scale(Vector3D const &amp;new_scale)</div><div class="ttdoc">Metoda pozwalajaca na aktualizacje skali bryly geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8cpp_source.html#l00027">Geometrical_solid.cpp:27</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html_ade2f1d26e6ba5e52d6ac2bd18833dda2"><div class="ttname"><a href="class_geometrical__solid.html#ade2f1d26e6ba5e52d6ac2bd18833dda2">Geometrical_solid::get_scale</a></div><div class="ttdeci">Vector3D get_scale() const</div><div class="ttdoc">Metoda pozwalajaca na pobranie skali bryly geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8cpp_source.html#l00037">Geometrical_solid.cpp:37</a></div></div>
+<div class="ttc" id="aclass_matrix_html"><div class="ttname"><a href="class_matrix.html">Matrix</a></div><div class="ttdoc">Szablon klasy modelujacej w programie pojecie macierzy.</div><div class="ttdef"><b>Definition:</b> <a href="matrix_8hh_source.html#l00028">matrix.hh:28</a></div></div>
+<div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
+<div class="ttc" id="amatrix3x3_8hh_html_a09eb2fbe2cced0556e119e17cd95a8dd"><div class="ttname"><a href="matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd">Fill_matrix_OZ</a></div><div class="ttdeci">Matrix3x3 Fill_matrix_OZ(double const angle)</div><div class="ttdoc">Funkcja wypelniajaca Matrix3x3 wartosciaciami macierzy obrotu 3D w osi OZ, dla zadanego kata.</div><div class="ttdef"><b>Definition:</b> <a href="matrix3x3_8cpp_source.html#l00063">matrix3x3.cpp:63</a></div></div>
+<div class="ttc" id="asize_8hh_html_a91e52f45f6f11b18c0b4fec8fcdc9d7a"><div class="ttname"><a href="size_8hh.html#a91e52f45f6f11b18c0b4fec8fcdc9d7a">CORNERS</a></div><div class="ttdeci">constexpr int CORNERS</div><div class="ttdoc">Ilosc wiecholkow przetwarzanej figury.</div><div class="ttdef"><b>Definition:</b> <a href="size_8hh_source.html#l00009">size.hh:9</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="src_2cuboid_8cpp.html">Cuboid.cpp</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

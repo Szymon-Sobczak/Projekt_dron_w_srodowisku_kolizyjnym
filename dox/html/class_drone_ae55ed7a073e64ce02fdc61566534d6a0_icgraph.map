@@ -1,0 +1,4 @@
+<map id="Drone::rotate_drone" name="Drone::rotate_drone">
+<area shape="rect" id="node1" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,5,363,32"/>
+<area shape="rect" id="node2" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,5,163,32"/>
+</map>

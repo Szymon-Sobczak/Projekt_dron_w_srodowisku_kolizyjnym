@@ -1,0 +1,23 @@
+<map id="Drone::go_verical" name="Drone::go_verical">
+<area shape="rect" id="node1" title="Metoda realizujaca przelot drona w pionie." alt="" coords="5,437,141,463"/>
+<area shape="rect" id="node2" href="$class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="203,251,365,292"/>
+<area shape="rect" id="node14" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="197,429,371,471"/>
+<area shape="rect" id="node21" href="$class_hexagonal__prism.html#a6ea7417039a3d731cbc572d52ffb554c" title="Metoda pozwalaja na aktualizowanie kata obrotu graniastoslupa prawidlowego szesciokatnego." alt="" coords="189,495,379,536"/>
+<area shape="rect" id="node3" href="$class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="443,120,645,161"/>
+<area shape="rect" id="node8" href="$class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="984,320,1132,361"/>
+<area shape="rect" id="node11" href="$class_drone.html#a720acea4a98e74872e80c88a2f24faa6" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kadluba do pliku." alt="" coords="459,251,629,292"/>
+<area shape="rect" id="node13" href="$class_drone.html#a272c0597d236f80545bff08a4d29b330" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych wybranego rotora do pli..." alt="" coords="463,185,625,227"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a" title="Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu." alt="" coords="745,71,883,98"/>
+<area shape="rect" id="node5" href="$class_scene__object.html#a247d8bce7dc93d1db0929652e5f4afc2" title="Metoda pozwalajaca pobrac numer ID obiektu sceny." alt="" coords="721,189,907,215"/>
+<area shape="rect" id="node6" href="$class_hexagonal__prism.html#a816173bc7296b7b9ae88da8cf3a56872" title="Metoda pozawlajaca na transforamacje graniastoslupa prawidlowego szesciokatnego z ukladu lokalnego do..." alt="" coords="709,123,919,164"/>
+<area shape="rect" id="node9" href="$class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41" title="Metoda pozwalajaca na aktualizacje nazwy bryly geometrycznej." alt="" coords="734,239,894,295"/>
+<area shape="rect" id="node10" href="$class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3" title="Metoda pozwalajaca na aktualizacje skali bryly geometrycznej." alt="" coords="740,5,888,47"/>
+<area shape="rect" id="node7" href="$matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd" title="Funkcja wypelniajaca Matrix3x3 wartosciaciami macierzy obrotu 3D w osi OZ, dla zadanego kata." alt="" coords="999,199,1117,226"/>
+<area shape="rect" id="node12" href="$class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="734,320,894,361"/>
+<area shape="rect" id="node15" href="$namespace_pz_g.html#aa010184f31b26bb561b42f22438b821e" title="Funkcja pomocnicza, dopisuje do polecenia wpisy związane z rysowaniem z pliku." alt="" coords="433,437,655,463"/>
+<area shape="rect" id="node16" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="427,488,661,529"/>
+<area shape="rect" id="node17" href="$namespace_pz_g.html#a169c311f0e0b6ffadcd44e91e749f72d" title="Wczytuje z pliku listę punktów." alt="" coords="717,488,911,529"/>
+<area shape="rect" id="node18" href="$class_pz_g_1_1_atrybuty_rysowania.html#ab068535b4d2f755c394557d1da72a4eb" title="Zmienia kolor rysowania." alt="" coords="967,488,1149,529"/>
+<area shape="rect" id="node19" href="$class_pz_g_1_1_atrybuty_rysowania.html#af4b140eb03bc10b6fd816fad63f8372e" title="Zmienia rozmiar rysowania." alt="" coords="967,553,1149,595"/>
+<area shape="rect" id="node20" href="$class_pz_g_1_1_atrybuty_rysowania.html#a2ac97706124b14072715ecf3f07e82b4" title="Zmienia styl rysowania." alt="" coords="967,423,1149,464"/>
+</map>

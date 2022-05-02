@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/main.dir/app/main.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/app/main.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/app/main.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/lacze_do_gnuplota.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/lacze_do_gnuplota.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Cuboid.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Cuboid.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Cuboid.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Drone.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Drone.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Drone.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Geometrical_solid.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Geometrical_solid.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Geometrical_solid.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Hexagonal_prism.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Hexagonal_prism.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Hexagonal_prism.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/matrix3x3.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/matrix3x3.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/matrix3x3.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Scene.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Scene.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Scene.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Scene_object.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Scene_object.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Scene_object.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Obs_mnt_long.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Obs_mnt_long.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Obs_mnt_long.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Obs_mnt_pointed.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Obs_mnt_pointed.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Obs_mnt_pointed.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Obs_plateau.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Obs_plateau.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/src/Obs_plateau.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/main.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/main.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_vector3D.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_vector3D.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_vector3D.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_vector3D_counters.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_vector3D_counters.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_vector3D_counters.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_matrix3x3.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_matrix3x3.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_matrix3x3.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Cuboid.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Cuboid.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Cuboid.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Drone.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Drone.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Drone.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Geometrical_solid.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Geometrical_solid.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Geometrical_solid.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Hexagonal_prism.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Hexagonal_prism.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Hexagonal_prism.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Obs_mnt_long.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Obs_mnt_long.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Obs_mnt_long.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Obs_mnt_pointed.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Obs_mnt_pointed.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Obs_mnt_pointed.cpp"
+},
+{
+  "directory": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build/tests",
+  "command": "/usr/bin/c++ -DENABLE_DOCTEST_IN_LIBRARY -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/build -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/inc -I/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/external/doctest/doctest -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/test_Obs_plateau.cpp.o -c /home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Obs_plateau.cpp",
+  "file": "/home/ader/Pulpit/DRON_FINAL/zad5_3-Szymon-Sobczak/tests/test_Obs_plateau.cpp"
+}
+]

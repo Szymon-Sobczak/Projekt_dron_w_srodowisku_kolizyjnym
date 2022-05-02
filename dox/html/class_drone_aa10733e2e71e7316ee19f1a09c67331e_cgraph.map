@@ -1,0 +1,14 @@
+<map id="Drone::Calculate_and_save_to_file_drone" name="Drone::Calculate_and_save_to_file_drone">
+<area shape="rect" id="node1" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="5,228,167,269"/>
+<area shape="rect" id="node2" href="$class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="215,129,416,171"/>
+<area shape="rect" id="node7" href="$class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="721,319,869,360"/>
+<area shape="rect" id="node10" href="$class_drone.html#a720acea4a98e74872e80c88a2f24faa6" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kadluba do pliku." alt="" coords="230,260,401,301"/>
+<area shape="rect" id="node12" href="$class_drone.html#a272c0597d236f80545bff08a4d29b330" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych wybranego rotora do pli..." alt="" coords="235,195,396,236"/>
+<area shape="rect" id="node3" href="$class_cuboid.html#a46a9dbfb801dcd0e0a7e9773be14520a" title="Metoda pozwaljaca pobrac aktualny kat obrotu prostopadloscianu." alt="" coords="499,137,638,163"/>
+<area shape="rect" id="node4" href="$class_scene__object.html#a247d8bce7dc93d1db0929652e5f4afc2" title="Metoda pozwalajaca pobrac numer ID obiektu sceny." alt="" coords="476,267,661,294"/>
+<area shape="rect" id="node5" href="$class_hexagonal__prism.html#a816173bc7296b7b9ae88da8cf3a56872" title="Metoda pozawlajaca na transforamacje graniastoslupa prawidlowego szesciokatnego z ukladu lokalnego do..." alt="" coords="464,71,673,112"/>
+<area shape="rect" id="node8" href="$class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41" title="Metoda pozwalajaca na aktualizacje nazwy bryly geometrycznej." alt="" coords="489,187,649,243"/>
+<area shape="rect" id="node9" href="$class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3" title="Metoda pozwalajaca na aktualizacje skali bryly geometrycznej." alt="" coords="495,5,643,47"/>
+<area shape="rect" id="node6" href="$matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd" title="Funkcja wypelniajaca Matrix3x3 wartosciaciami macierzy obrotu 3D w osi OZ, dla zadanego kata." alt="" coords="737,173,854,199"/>
+<area shape="rect" id="node11" href="$class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="489,319,649,360"/>
+</map>

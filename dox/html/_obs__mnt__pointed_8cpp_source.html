@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Plik źródłowy Obs_mnt_pointed.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_obs__mnt__pointed_8cpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Obs_mnt_pointed.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_obs__mnt__pointed_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_obs__mnt__pointed_8hh.html">Obs_mnt_pointed.hh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_mnt__pointed.html#a760962397628cae67064bd4448cb6fc9">   20</a></span>&#160;<a class="code" href="class_mnt__pointed.html#a760962397628cae67064bd4448cb6fc9">Mnt_pointed::Mnt_pointed</a>(<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; position, <a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; scale, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ID) : <a class="code" href="class_cuboid.html">Cuboid</a> (), <a class="code" href="class_scene__object.html">Scene_object</a>(ID, <span class="stringliteral">&quot;gora ze szczytem&quot;</span>) {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3">update_scale</a> (scale);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_mnt__pointed.html#a6f2468afb3429ac006faf397766613e8">transform_shape</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331">save_to_file</a>(position);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331">   33</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331">Mnt_pointed::save_to_file</a>(<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; position){</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Transform_to_global_coords</a>(position);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::ofstream  FileStrm;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_vector.html">Vector3D</a> P1, P2;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    std::string name_of_file = <span class="stringliteral">&quot;../datasets/Glb_crd_No_&quot;</span> + std::to_string(<a class="code" href="class_scene__object.html#a247d8bce7dc93d1db0929652e5f4afc2">get_obj_ID</a>()) + <span class="stringliteral">&quot;_mnt_pointed.dat&quot;</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41">update_Name_of_file_global</a>(name_of_file);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    FileStrm.open(name_of_file);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (!FileStrm.is_open()){</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      <span class="keywordflow">throw</span> std::runtime_error(<span class="stringliteral">&quot;:(  Operacja otwarcia pliku do zapisu nie powiodla sie.&quot;</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    P1 = ((*this)[7] + ((*this)[0] + (*this)[1]) / 2) / 2;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    P2 = ((*this)[7] + ((*this)[2] + (*this)[3]) / 2) / 2;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    FileStrm &lt;&lt; P1 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;             &lt;&lt; (*this)[6] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;             &lt;&lt; (*this)[4] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;             &lt;&lt; P2 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;             &lt;&lt; <span class="charliteral">&#39;#&#39;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;             &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    FileStrm &lt;&lt; P1 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;             &lt;&lt; (*this)[7] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;             &lt;&lt; (*this)[5] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;             &lt;&lt; P2 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;             &lt;&lt; <span class="charliteral">&#39;#&#39;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;             &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    FileStrm &lt;&lt; P1 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;             &lt;&lt; (*this)[1] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;             &lt;&lt; (*this)[3] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;             &lt;&lt; P2 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;             &lt;&lt; <span class="charliteral">&#39;#&#39;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;             &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    FileStrm &lt;&lt; P1 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;             &lt;&lt; (*this)[0] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;             &lt;&lt; (*this)[2] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;             &lt;&lt; P2 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;             &lt;&lt; <span class="charliteral">&#39;#&#39;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;             &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    FileStrm &lt;&lt; P1 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;             &lt;&lt; (*this)[6] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;             &lt;&lt; (*this)[4] &lt;&lt; std::endl</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;             &lt;&lt; P2 &lt;&lt; std::endl</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;             &lt;&lt; <span class="charliteral">&#39;#&#39;</span> &lt;&lt; std::endl</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;             &lt;&lt; std::endl; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    FileStrm.close();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_mnt__pointed.html#ab8c9422a2d95d922a02e4ebcf1a72703">   96</a></span>&#160;std::string <span class="keyword">const</span> &amp; <a class="code" href="class_mnt__pointed.html#ab8c9422a2d95d922a02e4ebcf1a72703">Mnt_pointed::get_name_of_file</a>(){</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_geometrical__solid.html#a1c03748a689e6596927b1358f141ff85">Get_Name_of_file_global</a>();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="class_mnt__pointed.html#a163000d39030a8a1ccd3f20e9d9de23a">  104</a></span>&#160;<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; <a class="code" href="class_mnt__pointed.html#a163000d39030a8a1ccd3f20e9d9de23a">Mnt_pointed::get_position</a>(){</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_cuboid.html#a1e9cb9b3a754247d602b51d501537888">get_center</a>();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="class_mnt__pointed.html#a6f2468afb3429ac006faf397766613e8">  112</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_mnt__pointed.html#a6f2468afb3429ac006faf397766613e8">Mnt_pointed::transform_shape</a>(){</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="class_vector.html">Vector3D</a> apex = ((*this)(7)  + (*<span class="keyword">this</span>)(4)) / 2; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    (*this)(4) = apex;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    (*this)(5) = apex;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    (*this)(6) = apex;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    (*this)(7) = apex;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="class_mnt__pointed.html#a4038890c2d7966e017c44331ccc84fee">  125</a></span>&#160;<a class="code" href="class_vector.html">Vector3D</a> <span class="keyword">const</span> &amp; <a class="code" href="class_mnt__pointed.html#a4038890c2d7966e017c44331ccc84fee">Mnt_pointed::get_size</a>(){</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460">get_scale</a>();</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
+<div class="ttc" id="a_obs__mnt__pointed_8hh_html"><div class="ttname"><a href="_obs__mnt__pointed_8hh.html">Obs_mnt_pointed.hh</a></div><div class="ttdoc">Definicja klasy Mnt_pointed.</div></div>
+<div class="ttc" id="aclass_cuboid_html"><div class="ttname"><a href="class_cuboid.html">Cuboid</a></div><div class="ttdoc">Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ...</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8hh_source.html#l00036">Cuboid.hh:36</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1e9cb9b3a754247d602b51d501537888"><div class="ttname"><a href="class_cuboid.html#a1e9cb9b3a754247d602b51d501537888">Cuboid::get_center</a></div><div class="ttdeci">Vector3D const  &amp; get_center()</div><div class="ttdoc">Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00133">Cuboid.cpp:133</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a940aebd7222c87874c7e780f0d9376d5"><div class="ttname"><a href="class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5">Cuboid::Transform_to_global_coords</a></div><div class="ttdeci">void Transform_to_global_coords(Vector3D const &amp;vec)</div><div class="ttdoc">Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_cuboid_8cpp_source.html#l00047">Cuboid.cpp:47</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html_a1c03748a689e6596927b1358f141ff85"><div class="ttname"><a href="class_geometrical__solid.html#a1c03748a689e6596927b1358f141ff85">Geometrical_solid::Get_Name_of_file_global</a></div><div class="ttdeci">std::string const  &amp; Get_Name_of_file_global()</div><div class="ttdoc">Metoda pozwalajaca na pobranie nazwy bryly geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8cpp_source.html#l00046">Geometrical_solid.cpp:46</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html_a5ead7c5b0fc35bc36b58b06372784a41"><div class="ttname"><a href="class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41">Geometrical_solid::update_Name_of_file_global</a></div><div class="ttdeci">void update_Name_of_file_global(std::string const &amp;new_name)</div><div class="ttdoc">Metoda pozwalajaca na aktualizacje nazwy bryly geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8cpp_source.html#l00056">Geometrical_solid.cpp:56</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html_a8bc0c2581baa2a57e454bb4033bab460"><div class="ttname"><a href="class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460">Geometrical_solid::get_scale</a></div><div class="ttdeci">Vector3D const  &amp; get_scale()</div><div class="ttdoc">Metoda pozwalajaca na pobranie skali bryly geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8cpp_source.html#l00036">Geometrical_solid.cpp:36</a></div></div>
+<div class="ttc" id="aclass_geometrical__solid_html_ac1b0e258250344308e07f7f7175e19f3"><div class="ttname"><a href="class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3">Geometrical_solid::update_scale</a></div><div class="ttdeci">void update_scale(Vector3D const &amp;new_scale)</div><div class="ttdoc">Metoda pozwalajaca na aktualizacje skali bryly geometrycznej.</div><div class="ttdef"><b>Definition:</b> <a href="_geometrical__solid_8cpp_source.html#l00026">Geometrical_solid.cpp:26</a></div></div>
+<div class="ttc" id="aclass_mnt__pointed_html_a163000d39030a8a1ccd3f20e9d9de23a"><div class="ttname"><a href="class_mnt__pointed.html#a163000d39030a8a1ccd3f20e9d9de23a">Mnt_pointed::get_position</a></div><div class="ttdeci">Vector3D const  &amp; get_position() override final</div><div class="ttdoc">Metoda sluzy do pobrania pozycji srodka gory ze szczytem.</div><div class="ttdef"><b>Definition:</b> <a href="_obs__mnt__pointed_8cpp_source.html#l00104">Obs_mnt_pointed.cpp:104</a></div></div>
+<div class="ttc" id="aclass_mnt__pointed_html_a4038890c2d7966e017c44331ccc84fee"><div class="ttname"><a href="class_mnt__pointed.html#a4038890c2d7966e017c44331ccc84fee">Mnt_pointed::get_size</a></div><div class="ttdeci">Vector3D const  &amp; get_size() override final</div><div class="ttdoc">Metoda pozwalajca pobrac dane o wymiarach obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="_obs__mnt__pointed_8cpp_source.html#l00125">Obs_mnt_pointed.cpp:125</a></div></div>
+<div class="ttc" id="aclass_mnt__pointed_html_a6f2468afb3429ac006faf397766613e8"><div class="ttname"><a href="class_mnt__pointed.html#a6f2468afb3429ac006faf397766613e8">Mnt_pointed::transform_shape</a></div><div class="ttdeci">void transform_shape()</div><div class="ttdoc">Metoda pozwalajaca na modyfikacje rozkladu wierzcholkow loklanych.</div><div class="ttdef"><b>Definition:</b> <a href="_obs__mnt__pointed_8cpp_source.html#l00112">Obs_mnt_pointed.cpp:112</a></div></div>
+<div class="ttc" id="aclass_mnt__pointed_html_a760962397628cae67064bd4448cb6fc9"><div class="ttname"><a href="class_mnt__pointed.html#a760962397628cae67064bd4448cb6fc9">Mnt_pointed::Mnt_pointed</a></div><div class="ttdeci">Mnt_pointed(Vector3D const &amp;position, Vector3D const &amp;scale, unsigned int ID)</div><div class="ttdoc">Konstruktor wieloparametryczny klasy.</div><div class="ttdef"><b>Definition:</b> <a href="_obs__mnt__pointed_8cpp_source.html#l00020">Obs_mnt_pointed.cpp:20</a></div></div>
+<div class="ttc" id="aclass_mnt__pointed_html_ab8c9422a2d95d922a02e4ebcf1a72703"><div class="ttname"><a href="class_mnt__pointed.html#ab8c9422a2d95d922a02e4ebcf1a72703">Mnt_pointed::get_name_of_file</a></div><div class="ttdeci">std::string const  &amp; get_name_of_file() override final</div><div class="ttdoc">Metoda sluzy do pobrania nazwy pliku zawierajacego dane o wierzcholkach gory ze szczytem.</div><div class="ttdef"><b>Definition:</b> <a href="_obs__mnt__pointed_8cpp_source.html#l00096">Obs_mnt_pointed.cpp:96</a></div></div>
+<div class="ttc" id="aclass_mnt__pointed_html_aea2c46332bf466a64d26394a4eaee331"><div class="ttname"><a href="class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331">Mnt_pointed::save_to_file</a></div><div class="ttdeci">void save_to_file(Vector3D const &amp;position)</div><div class="ttdoc">Metoda pozwalajaca zapisac gore ze szczytem do pliku.</div><div class="ttdef"><b>Definition:</b> <a href="_obs__mnt__pointed_8cpp_source.html#l00033">Obs_mnt_pointed.cpp:33</a></div></div>
+<div class="ttc" id="aclass_scene__object_html"><div class="ttname"><a href="class_scene__object.html">Scene_object</a></div><div class="ttdoc">Klasa modelujaca w programie pojecie obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene__object_8hh_source.html#l00040">Scene_object.hh:40</a></div></div>
+<div class="ttc" id="aclass_scene__object_html_a247d8bce7dc93d1db0929652e5f4afc2"><div class="ttname"><a href="class_scene__object.html#a247d8bce7dc93d1db0929652e5f4afc2">Scene_object::get_obj_ID</a></div><div class="ttdeci">int get_obj_ID()</div><div class="ttdoc">Metoda pozwalajaca pobrac numer ID obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_scene__object_8cpp_source.html#l00026">Scene_object.cpp:26</a></div></div>
+<div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; 3 &gt;</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_obs__mnt__pointed_8cpp.html">Obs_mnt_pointed.cpp</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

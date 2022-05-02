@@ -1,0 +1,4 @@
+<map id="Scene::add_new_drone" name="Scene::add_new_drone">
+<area shape="rect" id="node1" title="Metoda pozwalajaca dodac nowego drona do sceny." alt="" coords="161,5,332,32"/>
+<area shape="rect" id="node2" href="$class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e" title="Konstrukotr klasy z parametrem." alt="" coords="5,5,113,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Plateau::get_position" name="Plateau::get_position">
+<area shape="rect" id="node1" title="Metoda sluzy do pobrania pozycji srodka plaskowyzu." alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node2" href="$class_cuboid.html#a1e9cb9b3a754247d602b51d501537888" title="Metoda pozwalaja na pobranie pozycji srodka prostopadloscianu." alt="" coords="212,5,356,32"/>
+</map>

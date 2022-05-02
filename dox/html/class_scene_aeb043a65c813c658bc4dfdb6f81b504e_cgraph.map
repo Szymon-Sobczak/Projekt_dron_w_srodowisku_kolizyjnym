@@ -1,0 +1,7 @@
+<map id="Scene::Scene" name="Scene::Scene">
+<area shape="rect" id="node1" title="Konstrukotr klasy z parametrem." alt="" coords="5,97,113,124"/>
+<area shape="rect" id="node2" href="$class_scene.html#ac7892729074b7061aa12ac3254667825" title="Metoda pozwalajaca dodac nowego drona do sceny." alt="" coords="161,5,332,32"/>
+<area shape="rect" id="node3" href="$class_scene.html#a3a4e44a5a2a1b66afa28d810ef6180ab" title="Metoda pozwalajaca dodac nowa przeszkode &#45; zbocze do sceny." alt="" coords="169,57,324,98"/>
+<area shape="rect" id="node4" href="$class_scene.html#a29f09e273cb7b32fe8172c03babf7953" title="Metoda pozwalajaca dodac nowa przeszkode &#45; gore ze szczytem do sceny." alt="" coords="169,122,324,163"/>
+<area shape="rect" id="node5" href="$class_scene.html#ac485e107d2e54df098e1fe6243bf3ebd" title="Metoda pozwalajaca dodac nowa przeszkode &#45; plaskowyz do sceny." alt="" coords="169,187,324,229"/>
+</map>

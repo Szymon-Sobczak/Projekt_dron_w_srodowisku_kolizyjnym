@@ -1,0 +1,10 @@
+<map id="Plateau::Plateau" name="Plateau::Plateau">
+<area shape="rect" id="node1" title="Konstruktor wieloparametryczny klasy." alt="" coords="5,93,133,120"/>
+<area shape="rect" id="node2" href="$class_plateau.html#a856b51e1fe86e60ed79eec7fea0b6b0c" title="Metoda pozwalajaca zapisac plaskowyz do pliku." alt="" coords="181,64,339,91"/>
+<area shape="rect" id="node8" href="$class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3" title="Metoda pozwalajaca na aktualizacje skali bryly geometrycznej." alt="" coords="186,115,334,157"/>
+<area shape="rect" id="node3" href="$class_scene__object.html#a247d8bce7dc93d1db0929652e5f4afc2" title="Metoda pozwalajaca pobrac numer ID obiektu sceny." alt="" coords="387,5,572,32"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="399,57,559,98"/>
+<area shape="rect" id="node7" href="$class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41" title="Metoda pozwalajaca na aktualizacje nazwy bryly geometrycznej." alt="" coords="399,123,559,179"/>
+<area shape="rect" id="node5" href="$matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd" title="Funkcja wypelniajaca Matrix3x3 wartosciaciami macierzy obrotu 3D w osi OZ, dla zadanego kata." alt="" coords="635,35,753,61"/>
+<area shape="rect" id="node6" href="$class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="620,86,768,127"/>
+</map>

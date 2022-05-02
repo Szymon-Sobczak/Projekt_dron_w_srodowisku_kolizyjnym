@@ -1,0 +1,4 @@
+<map id="Scene::check_if_drone_collides" name="Scene::check_if_drone_collides">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na sprawdzenie czy wybrany dron, wchodzi w kolizje z innymi obiektami sceny." alt="" coords="108,5,275,47"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,13,60,39"/>
+</map>

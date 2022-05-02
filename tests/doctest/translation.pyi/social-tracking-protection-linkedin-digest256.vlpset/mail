@@ -1,0 +1,69 @@
+void Wyswietl (LZespolona LZesp){
+  std::cout << "(" << fixed << LZesp.re
+}
+
+mają Państwo przerobić na 
+
+ostream& operator << (ostream &StrmWyj, LZespolona LZesp){
+  StrmWyj << "(" << LZesp.re << std::showpos << LZesp.im << std::noshowpos << "i)"; 
+  return StrmWyj;
+}
+
+Proszę pamiętać o zapowiedzi w pliku nagłówkowym:
+
+#include <iostream>
+...
+std::ostream& operator << (std::ostream&, LZespolona);
+
+----------------------------------------------------------------
+// Diagram też pokazać
+istream& operator >> (istream &StrmWej, LZespolona &LZesp){
+  char Nawias, Litera;
+  StrmWej >> Nawias;
+  if (StrmWej.fail()) 
+    return StrmWej;
+  if (Nawias != ’(’) { 
+    StrmWej.setstate(ios::failbit);
+    return StrmWej; }
+  StrmWej >> LZesp.re;
+  if (StrmWej.fail()) 
+    return StrmWej;
+  StrmWej >> LZesp.im;
+  if (StrmWej.fail()) 
+    return StrmWej;
+  StrmWej >> Litera;
+  if (StrmWej.fail()) 
+    return StrmWej;
+  if (Litera != ’i’) { 
+    StrmWej.setstate(ios::failbit);
+    return StrmWej; }
+  StrmWej >> Nawias;
+  if (StrmWej.fail()) 
+    return StrmWej;
+  if (Nawias != ’)’) { 
+    StrmWej.setstate(ios::failbit); return StrmWej; }
+  return StrmWej;
+}
+
+cin >> LZespolona1;
+if (cin.fail()){
+}
+-----------------------------------------------------------------
+Przykład dekompozycji problemu:
+void WczytajTenZnak(istream &StrmWej, char Znak){
+  char CzytanyZnak = ’ ’;
+  StrmWej >> CzytanyZnak;
+  if (CzytanyZnak != Znak) { 
+    StrmWej.setstate(ios::failbit);}
+}
+istream& operator >> (istream &StrmWej, LZespolona &LZesp){
+  //Korzystamy tutaj z tego, że jak strumień jest w stanie fail, to żadna operacja czytania już się nie wykona.
+  WczytajTenZnak(StrmWej,’(’); 
+  StrmWej >> LZesp.re;
+  StrmWej >> LZesp.im;
+  WczytajTenZnak(StrmWej,’i’);
+  WczytajTenZnak(StrmWej,’)’);
+  return StrmWej;
+}
+
+

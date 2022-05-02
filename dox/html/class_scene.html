@@ -1,0 +1,886 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Dokumentacja klasy Scene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_scene.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_scene-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy Scene</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa modelujaca w programie pojecie Sceny. <br  />
+  
+ <a href="class_scene.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_scene_8hh_source.html">Scene.hh</a>&gt;</code></p>
+<div class="dynheader">
+Diagram współpracy dla Scene:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene__coll__graph.png" border="0" usemap="#a_scene_coll__map" alt="Collaboration graph"/></div>
+<map name="a_scene_coll__map" id="a_scene_coll__map">
+<area shape="rect" title="Klasa modelujaca w programie pojecie Sceny." alt="" coords="167,109,228,136"/>
+<area shape="rect" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html" title="Klasa realizuje interfejs do programu GNUPlot." alt="" coords="5,5,179,32"/>
+<area shape="rect" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania." alt="" coords="203,5,403,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:aeb043a65c813c658bc4dfdb6f81b504e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e">Scene</a> (<a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> *Link)</td></tr>
+<tr class="memdesc:aeb043a65c813c658bc4dfdb6f81b504e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstrukotr klasy z parametrem.  <a href="class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e">Więcej...</a><br /></td></tr>
+<tr class="separator:aeb043a65c813c658bc4dfdb6f81b504e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
+<tr class="memdesc:a3b8cec2e32546713915f8c6303c951f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor klasy.  <a href="class_scene.html#a3b8cec2e32546713915f8c6303c951f1">Więcej...</a><br /></td></tr>
+<tr class="separator:a3b8cec2e32546713915f8c6303c951f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d0664c0aa040eaefd9934604b14052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">choose_drone</a> (int active_drone)</td></tr>
+<tr class="memdesc:ae5d0664c0aa040eaefd9934604b14052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda sluzaca zmianie numeru aktywnego drona.  <a href="class_scene.html#ae5d0664c0aa040eaefd9934604b14052">Więcej...</a><br /></td></tr>
+<tr class="separator:ae5d0664c0aa040eaefd9934604b14052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47624ea43c8ab2165e46b8c93542c937"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_drone.html">Drone</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">use_active_drone</a> ()</td></tr>
+<tr class="memdesc:a47624ea43c8ab2165e46b8c93542c937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda sluzaca probraniu wskaznika na aktywnego drona.  <a href="class_scene.html#a47624ea43c8ab2165e46b8c93542c937">Więcej...</a><br /></td></tr>
+<tr class="separator:a47624ea43c8ab2165e46b8c93542c937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7892729074b7061aa12ac3254667825"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ac7892729074b7061aa12ac3254667825">add_new_drone</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;position)</td></tr>
+<tr class="memdesc:ac7892729074b7061aa12ac3254667825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca dodac nowego drona do sceny.  <a href="class_scene.html#ac7892729074b7061aa12ac3254667825">Więcej...</a><br /></td></tr>
+<tr class="separator:ac7892729074b7061aa12ac3254667825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac485e107d2e54df098e1fe6243bf3ebd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ac485e107d2e54df098e1fe6243bf3ebd">add_obstacle_plateau</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;position, <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;scale)</td></tr>
+<tr class="memdesc:ac485e107d2e54df098e1fe6243bf3ebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca dodac nowa przeszkode - plaskowyz do sceny.  <a href="class_scene.html#ac485e107d2e54df098e1fe6243bf3ebd">Więcej...</a><br /></td></tr>
+<tr class="separator:ac485e107d2e54df098e1fe6243bf3ebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a4e44a5a2a1b66afa28d810ef6180ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3a4e44a5a2a1b66afa28d810ef6180ab">add_obstacle_mnt_long</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;position, <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;scale)</td></tr>
+<tr class="memdesc:a3a4e44a5a2a1b66afa28d810ef6180ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca dodac nowa przeszkode - zbocze do sceny.  <a href="class_scene.html#a3a4e44a5a2a1b66afa28d810ef6180ab">Więcej...</a><br /></td></tr>
+<tr class="separator:a3a4e44a5a2a1b66afa28d810ef6180ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f09e273cb7b32fe8172c03babf7953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a29f09e273cb7b32fe8172c03babf7953">add_obstacle_mnt_pointed</a> (<a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;position, <a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;scale)</td></tr>
+<tr class="memdesc:a29f09e273cb7b32fe8172c03babf7953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca dodac nowa przeszkode - gore ze szczytem do sceny.  <a href="class_scene.html#a29f09e273cb7b32fe8172c03babf7953">Więcej...</a><br /></td></tr>
+<tr class="separator:a29f09e273cb7b32fe8172c03babf7953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc16b21c9b74d2df163db2fa3182e6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#afbc16b21c9b74d2df163db2fa3182e6b">list_obstacles</a> ()</td></tr>
+<tr class="memdesc:afbc16b21c9b74d2df163db2fa3182e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca wylistowac wszystkie przeszkody na scenie.  <a href="class_scene.html#afbc16b21c9b74d2df163db2fa3182e6b">Więcej...</a><br /></td></tr>
+<tr class="separator:afbc16b21c9b74d2df163db2fa3182e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a568b0f9359938f784655a57df4118a5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a568b0f9359938f784655a57df4118a5e">delete_obstacle</a> (int obstacle_ID)</td></tr>
+<tr class="memdesc:a568b0f9359938f784655a57df4118a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca usunac wybrana przeszkode ze sceny.  <a href="class_scene.html#a568b0f9359938f784655a57df4118a5e">Więcej...</a><br /></td></tr>
+<tr class="separator:a568b0f9359938f784655a57df4118a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c99bcca299b4460ea25a84c36f0c076"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6c99bcca299b4460ea25a84c36f0c076">check_if_drone_collides</a> (int drone_ID)</td></tr>
+<tr class="memdesc:a6c99bcca299b4460ea25a84c36f0c076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca na sprawdzenie czy wybrany dron, wchodzi w kolizje z innymi obiektami sceny.  <a href="class_scene.html#a6c99bcca299b4460ea25a84c36f0c076">Więcej...</a><br /></td></tr>
+<tr class="separator:a6c99bcca299b4460ea25a84c36f0c076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:aff5ae6d7433d7a96939ab418f6c51c92"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="class_drone.html">Drone</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aff5ae6d7433d7a96939ab418f6c51c92">Drone_list</a></td></tr>
+<tr class="memdesc:aff5ae6d7433d7a96939ab418f6c51c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu std::list reprezentujace zbior dronow na scenie.  <a href="class_scene.html#aff5ae6d7433d7a96939ab418f6c51c92">Więcej...</a><br /></td></tr>
+<tr class="separator:aff5ae6d7433d7a96939ab418f6c51c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d3affcfd8e583bf925dbd0df5a5235"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="class_scene__object.html">Scene_object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#af9d3affcfd8e583bf925dbd0df5a5235">Obstacle_list</a></td></tr>
+<tr class="memdesc:af9d3affcfd8e583bf925dbd0df5a5235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu std::list reprezentujace zbior przeszkod na scenie.  <a href="class_scene.html#af9d3affcfd8e583bf925dbd0df5a5235">Więcej...</a><br /></td></tr>
+<tr class="separator:af9d3affcfd8e583bf925dbd0df5a5235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5adbe4b9c6f846518b5cdfd06d861f09"><td class="memItemLeft" align="right" valign="top">std::list&lt; std::shared_ptr&lt; <a class="el" href="class_scene__object.html">Scene_object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a5adbe4b9c6f846518b5cdfd06d861f09">Objects_list</a></td></tr>
+<tr class="memdesc:a5adbe4b9c6f846518b5cdfd06d861f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu std::list reprezentujace zbior wszystkich obiektow na scenie.  <a href="class_scene.html#a5adbe4b9c6f846518b5cdfd06d861f09">Więcej...</a><br /></td></tr>
+<tr class="separator:a5adbe4b9c6f846518b5cdfd06d861f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bfa681f18381ea6a2d7d2370de6c2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html">PzG::InfoPlikuDoRysowania</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#af7bfa681f18381ea6a2d7d2370de6c2e">Tab_of_properties_d1</a> [6]</td></tr>
+<tr class="memdesc:af7bfa681f18381ea6a2d7d2370de6c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu <a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania.">PzG::InfoPlikuDoRysowania</a> reprezentujace zbior ustawien rysowania drona nr 1 w Gnuplot.  <a href="class_scene.html#af7bfa681f18381ea6a2d7d2370de6c2e">Więcej...</a><br /></td></tr>
+<tr class="separator:af7bfa681f18381ea6a2d7d2370de6c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7729083721fe86d7763946f97f8d8864"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html">PzG::InfoPlikuDoRysowania</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7729083721fe86d7763946f97f8d8864">Tab_of_properties_d2</a> [6]</td></tr>
+<tr class="memdesc:a7729083721fe86d7763946f97f8d8864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu <a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania.">PzG::InfoPlikuDoRysowania</a> reprezentujace zbior ustawien rysowania drona nr 2 w Gnuplot.  <a href="class_scene.html#a7729083721fe86d7763946f97f8d8864">Więcej...</a><br /></td></tr>
+<tr class="separator:a7729083721fe86d7763946f97f8d8864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4ce6ba96b842f40de7267826a5d7df"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0a4ce6ba96b842f40de7267826a5d7df">Number_of_drones</a> = 0</td></tr>
+<tr class="memdesc:a0a4ce6ba96b842f40de7267826a5d7df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu unsigned int reprezentujace liczbe kolejnych dronow na scenie.  <a href="class_scene.html#a0a4ce6ba96b842f40de7267826a5d7df">Więcej...</a><br /></td></tr>
+<tr class="separator:a0a4ce6ba96b842f40de7267826a5d7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23400da256e7fa6fa4e143867f28ade9"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a23400da256e7fa6fa4e143867f28ade9">Number_of_obstacles</a> = 0</td></tr>
+<tr class="memdesc:a23400da256e7fa6fa4e143867f28ade9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu unsigned int reprezentujace liczbe kolejnych przeszkod na scenie.  <a href="class_scene.html#a23400da256e7fa6fa4e143867f28ade9">Więcej...</a><br /></td></tr>
+<tr class="separator:a23400da256e7fa6fa4e143867f28ade9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9570d1e351b52a20c8f8018d0f3e3282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a9570d1e351b52a20c8f8018d0f3e3282">Link_to_gnuplot</a></td></tr>
+<tr class="memdesc:a9570d1e351b52a20c8f8018d0f3e3282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu <a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html" title="Klasa realizuje interfejs do programu GNUPlot.">PzG::LaczeDoGNUPlota</a> lacze do Gnuplot.  <a href="class_scene.html#a9570d1e351b52a20c8f8018d0f3e3282">Więcej...</a><br /></td></tr>
+<tr class="separator:a9570d1e351b52a20c8f8018d0f3e3282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f64913676678f695c3ff7f7cb84f138"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6f64913676678f695c3ff7f7cb84f138">Nbr_of_active_drone</a></td></tr>
+<tr class="memdesc:a6f64913676678f695c3ff7f7cb84f138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pole typu unsigned int, opisujace numer obecnie aktywnego drona.  <a href="class_scene.html#a6f64913676678f695c3ff7f7cb84f138">Więcej...</a><br /></td></tr>
+<tr class="separator:a6f64913676678f695c3ff7f7cb84f138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Klasa modelujaca w programie pojecie Sceny. <br  />
+ </p>
+<p>Klasa posiada:</p><ul>
+<li>Prywatne pole "Drone_list" bedace lita std::shared_ptr &lt;Drone&gt; - reprezentuje zbior dronow znajdujacych sie na scenie.</li>
+<li>Prywatne pole "Obstacle_list" bedace lita std::shared_ptr &lt;Scene_object&gt; - reprezentuje zbior przeszkod w znajdujacych sie na scenie.</li>
+<li>Prywatne pole "Objects_list" bedace lita std::shared_ptr &lt;Scene_object&gt; - reprezentuje zbior wszyskich obietkow znajdujacych sie na scenie.</li>
+<li>Prywatne pole "tab_of_properties_d1" bedace zbiorem wskaznikow na <a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania.">PzG::InfoPlikuDoRysowania</a>, reprezentuje ono zbior ustawien rysowania drona 1. w Gnuplot.</li>
+<li>Prywatne pole "tab_of_properties_d2" bedace zbiorem wskaznikow na <a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania.">PzG::InfoPlikuDoRysowania</a>, reprezentuje ono zbior ustawien rysowania drona 2. w Gnuplot.</li>
+<li>Prywatne pole "nbr_of_active_drone" typu unsigned int okreslajace, ktory z dronow jest obecnie aktywny.</li>
+<li>Prywatne pole "Number_of_drones" reprezentuje ono ilosc wszyskich powstalych dronow na scenie.</li>
+<li>Prywatne pole "Number_of_obstacles" reprezentuje ono ilosc wszyskich powstalych przeszkod na scenie.</li>
+<li>Prywatne pole "Link" okreslajce wskaznik na lacze do gnuplota.</li>
+<li>Publiczny konstruktor z parametrem, ktory okresla lacze do gnuplota.</li>
+</ul>
+<p>Utworzona klasa zawiera publiczne metody pozwalajace na:</p><ul>
+<li>Zmiane aktywnego drona.</li>
+<li>Pobranie informacji i modyfikacje danych aktywnego drona.</li>
+<li>Dodanie do sceny trzech roznych przeszkod terenowych.</li>
+<li>Wypisanie danych o wszystkich przeszkodach znajdujacych sie na scenie.</li>
+<li>Usuniecie wybranej przeszkody.</li>
+<li>Sprawdzenie czy wybrany dron wchodzi w kolizje z innymi obiektami na scenie. </li>
+</ul>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00052">52</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="aeb043a65c813c658bc4dfdb6f81b504e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb043a65c813c658bc4dfdb6f81b504e">&#9670;&nbsp;</a></span>Scene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Scene::Scene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a> *&#160;</td>
+          <td class="paramname"><em>Link</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Konstrukotr klasy z parametrem. </p>
+<p>Konstruktor z parametrem obiektu typu <a class="el" href="class_scene.html" title="Klasa modelujaca w programie pojecie Sceny.">Scene</a>. Tworzy scene z dwoma dronami w predefiniowanych miejscach oraz piecioma predefiniowanymi przeszkodami. Dolacza pliki zawierajace dane o wierzcholkach globalnych elementow dronow i przszkod do Gnuplot oraz. Ustala zakres rysowania w Gnuplot i grubosc rysowania linii.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Link</td><td>- wskaznik na lacze do Gnuplota.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd><a class="el" href="class_scene.html" title="Klasa modelujaca w programie pojecie Sceny.">Scene</a> zawierajaca dwa drony oraz 5 przeszkod. <br  />
+ </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00021">21</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_aeb043a65c813c658bc4dfdb6f81b504e_cgraph.png" border="0" usemap="#aclass_scene_aeb043a65c813c658bc4dfdb6f81b504e_cgraph" alt=""/></div>
+<map name="aclass_scene_aeb043a65c813c658bc4dfdb6f81b504e_cgraph" id="aclass_scene_aeb043a65c813c658bc4dfdb6f81b504e_cgraph">
+<area shape="rect" title="Konstrukotr klasy z parametrem." alt="" coords="5,97,113,124"/>
+<area shape="rect" href="class_scene.html#ac7892729074b7061aa12ac3254667825" title="Metoda pozwalajaca dodac nowego drona do sceny." alt="" coords="161,5,332,32"/>
+<area shape="rect" href="class_scene.html#a3a4e44a5a2a1b66afa28d810ef6180ab" title="Metoda pozwalajaca dodac nowa przeszkode &#45; zbocze do sceny." alt="" coords="169,57,324,98"/>
+<area shape="rect" href="class_scene.html#a29f09e273cb7b32fe8172c03babf7953" title="Metoda pozwalajaca dodac nowa przeszkode &#45; gore ze szczytem do sceny." alt="" coords="169,122,324,163"/>
+<area shape="rect" href="class_scene.html#ac485e107d2e54df098e1fe6243bf3ebd" title="Metoda pozwalajaca dodac nowa przeszkode &#45; plaskowyz do sceny." alt="" coords="169,187,324,229"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3b8cec2e32546713915f8c6303c951f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8cec2e32546713915f8c6303c951f1">&#9670;&nbsp;</a></span>~Scene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Scene::~Scene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destruktor klasy. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00082">82</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="ac7892729074b7061aa12ac3254667825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7892729074b7061aa12ac3254667825">&#9670;&nbsp;</a></span>add_new_drone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::add_new_drone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca dodac nowego drona do sceny. </p>
+<p>Dodaje do sceny obiekt - drona w okreslonym miejscu. Dodaje nowy obiekt- drona do listy dronow oraz do listy wszykisch obiektow sceny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">position</td><td>- Wektor opisujacy pozycje drona. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00219">219</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_ac7892729074b7061aa12ac3254667825_icgraph.png" border="0" usemap="#aclass_scene_ac7892729074b7061aa12ac3254667825_icgraph" alt=""/></div>
+<map name="aclass_scene_ac7892729074b7061aa12ac3254667825_icgraph" id="aclass_scene_ac7892729074b7061aa12ac3254667825_icgraph">
+<area shape="rect" title="Metoda pozwalajaca dodac nowego drona do sceny." alt="" coords="161,5,332,32"/>
+<area shape="rect" href="class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e" title="Konstrukotr klasy z parametrem." alt="" coords="5,5,113,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3a4e44a5a2a1b66afa28d810ef6180ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a4e44a5a2a1b66afa28d810ef6180ab">&#9670;&nbsp;</a></span>add_obstacle_mnt_long()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::add_obstacle_mnt_long </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>scale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca dodac nowa przeszkode - zbocze do sceny. </p>
+<p>Dodaje do sceny obiekt - gore ze zboczem o okreslonej skali i w okreslonym miejscu. Dodaje nowy obiekt- gore ze zboczem do listy przeszkod oraz do listy wszykisch obiektow sceny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">position</td><td>- Wektor opisujacy srodek nachylonego boku gory ze zboczem. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>- skala gory ze zboczem. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00178">178</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_a3a4e44a5a2a1b66afa28d810ef6180ab_icgraph.png" border="0" usemap="#aclass_scene_a3a4e44a5a2a1b66afa28d810ef6180ab_icgraph" alt=""/></div>
+<map name="aclass_scene_a3a4e44a5a2a1b66afa28d810ef6180ab_icgraph" id="aclass_scene_a3a4e44a5a2a1b66afa28d810ef6180ab_icgraph">
+<area shape="rect" title="Metoda pozwalajaca dodac nowa przeszkode &#45; zbocze do sceny." alt="" coords="161,23,316,65"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="32,5,87,32"/>
+<area shape="rect" href="class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e" title="Konstrukotr klasy z parametrem." alt="" coords="5,56,113,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a29f09e273cb7b32fe8172c03babf7953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29f09e273cb7b32fe8172c03babf7953">&#9670;&nbsp;</a></span>add_obstacle_mnt_pointed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::add_obstacle_mnt_pointed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>scale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca dodac nowa przeszkode - gore ze szczytem do sceny. </p>
+<p>Dodaje do sceny obiekt - gore ze szczytem o okreslonej skali i w okreslonym miejscu. Dodaje nowy obiekt- gore ze szczytem do listy przeszkod oraz do listy wszykisch obiektow sceny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">position</td><td>- Wektor opisujacy srodek gory ze szczytem. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>- skala gory ze zboczem. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00199">199</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_a29f09e273cb7b32fe8172c03babf7953_icgraph.png" border="0" usemap="#aclass_scene_a29f09e273cb7b32fe8172c03babf7953_icgraph" alt=""/></div>
+<map name="aclass_scene_a29f09e273cb7b32fe8172c03babf7953_icgraph" id="aclass_scene_a29f09e273cb7b32fe8172c03babf7953_icgraph">
+<area shape="rect" title="Metoda pozwalajaca dodac nowa przeszkode &#45; gore ze szczytem do sceny." alt="" coords="161,23,316,65"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="32,5,87,32"/>
+<area shape="rect" href="class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e" title="Konstrukotr klasy z parametrem." alt="" coords="5,56,113,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac485e107d2e54df098e1fe6243bf3ebd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac485e107d2e54df098e1fe6243bf3ebd">&#9670;&nbsp;</a></span>add_obstacle_plateau()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::add_obstacle_plateau </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="vector3_d_8hh.html#a01090a0f6a3d1e7e9606819bd0fafda0">Vector3D</a> const &amp;&#160;</td>
+          <td class="paramname"><em>scale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca dodac nowa przeszkode - plaskowyz do sceny. </p>
+<p>Dodaje do sceny obiekt - plaskowyz o okreslonej skali i w okreslonym miescju. Dodaje nowy obiekt- plaskowyz do listy wszystkich przeszkod oraz do listy wszykisch obiektow sceny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">position</td><td>- Wektor opisujacy srodek plaskowyzu. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>- skala plaskowyzu. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00156">156</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_ac485e107d2e54df098e1fe6243bf3ebd_icgraph.png" border="0" usemap="#aclass_scene_ac485e107d2e54df098e1fe6243bf3ebd_icgraph" alt=""/></div>
+<map name="aclass_scene_ac485e107d2e54df098e1fe6243bf3ebd_icgraph" id="aclass_scene_ac485e107d2e54df098e1fe6243bf3ebd_icgraph">
+<area shape="rect" title="Metoda pozwalajaca dodac nowa przeszkode &#45; plaskowyz do sceny." alt="" coords="161,23,316,65"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="32,5,87,32"/>
+<area shape="rect" href="class_scene.html#aeb043a65c813c658bc4dfdb6f81b504e" title="Konstrukotr klasy z parametrem." alt="" coords="5,56,113,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6c99bcca299b4460ea25a84c36f0c076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c99bcca299b4460ea25a84c36f0c076">&#9670;&nbsp;</a></span>check_if_drone_collides()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::check_if_drone_collides </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>drone_ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca na sprawdzenie czy wybrany dron, wchodzi w kolizje z innymi obiektami sceny. </p>
+<p>Metoda pozwala sprawdzic czy dron o okreslonym ID, wchodzi w kolizje z innymi obiektami sceny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">drone_ID</td><td>- ID drona, ktory ma zostac sprawdzony pod katem kolizji z innymi obiektami sceny.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>true - jesli dron wchodzi w kolizje. </dd>
+<dd>
+false - jesli dron nie wchodzi w kolizje. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00278">278</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_a6c99bcca299b4460ea25a84c36f0c076_icgraph.png" border="0" usemap="#aclass_scene_a6c99bcca299b4460ea25a84c36f0c076_icgraph" alt=""/></div>
+<map name="aclass_scene_a6c99bcca299b4460ea25a84c36f0c076_icgraph" id="aclass_scene_a6c99bcca299b4460ea25a84c36f0c076_icgraph">
+<area shape="rect" title="Metoda pozwalajaca na sprawdzenie czy wybrany dron, wchodzi w kolizje z innymi obiektami sceny." alt="" coords="108,5,275,47"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,13,60,39"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae5d0664c0aa040eaefd9934604b14052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d0664c0aa040eaefd9934604b14052">&#9670;&nbsp;</a></span>choose_drone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::choose_drone </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>active_drone</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda sluzaca zmianie numeru aktywnego drona. </p>
+<p>Metoda pozwala ustawic, ktory z dron na scenie jest dronem aktywnym. Metoda zmienia kolory dronow w zaleznosci od tego, ktory dron zostal wybrany jako aktywny.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">active_drone</td><td>- numer drona do aktywacji. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00095">95</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_ae5d0664c0aa040eaefd9934604b14052_icgraph.png" border="0" usemap="#aclass_scene_ae5d0664c0aa040eaefd9934604b14052_icgraph" alt=""/></div>
+<map name="aclass_scene_ae5d0664c0aa040eaefd9934604b14052_icgraph" id="aclass_scene_ae5d0664c0aa040eaefd9934604b14052_icgraph">
+<area shape="rect" title="Metoda sluzaca zmianie numeru aktywnego drona." alt="" coords="108,5,267,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a568b0f9359938f784655a57df4118a5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a568b0f9359938f784655a57df4118a5e">&#9670;&nbsp;</a></span>delete_obstacle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::delete_obstacle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>obstacle_ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca usunac wybrana przeszkode ze sceny. </p>
+<p>Metoda pozwala usunac przeszkode ze sceny. Usuwa przeszkode o okrelsonym ID z listy przeszkod oraz z listy wszystkich obiektow sceny. Odlacza od Gnuplot oraz usuwa plik zawierajacy dane o usuwanej przeszkodzie.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obstacle_ID</td><td>- ID przeszkody do usuniecia </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00243">243</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_a568b0f9359938f784655a57df4118a5e_icgraph.png" border="0" usemap="#aclass_scene_a568b0f9359938f784655a57df4118a5e_icgraph" alt=""/></div>
+<map name="aclass_scene_a568b0f9359938f784655a57df4118a5e_icgraph" id="aclass_scene_a568b0f9359938f784655a57df4118a5e_icgraph">
+<area shape="rect" title="Metoda pozwalajaca usunac wybrana przeszkode ze sceny." alt="" coords="108,5,280,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afbc16b21c9b74d2df163db2fa3182e6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc16b21c9b74d2df163db2fa3182e6b">&#9670;&nbsp;</a></span>list_obstacles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::list_obstacles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda pozwalajaca wylistowac wszystkie przeszkody na scenie. </p>
+<p>Metoda pozwala na wypisanie danych przeszkod znajdujacych sie aktualnie na liscie przeszkod na standardowe wyjscie. <br  />
+ </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00229">229</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_afbc16b21c9b74d2df163db2fa3182e6b_icgraph.png" border="0" usemap="#aclass_scene_afbc16b21c9b74d2df163db2fa3182e6b_icgraph" alt=""/></div>
+<map name="aclass_scene_afbc16b21c9b74d2df163db2fa3182e6b_icgraph" id="aclass_scene_afbc16b21c9b74d2df163db2fa3182e6b_icgraph">
+<area shape="rect" title="Metoda pozwalajaca wylistowac wszystkie przeszkody na scenie." alt="" coords="108,5,267,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a47624ea43c8ab2165e46b8c93542c937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47624ea43c8ab2165e46b8c93542c937">&#9670;&nbsp;</a></span>use_active_drone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="class_drone.html">Drone</a> &gt; Scene::use_active_drone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Metoda sluzaca probraniu wskaznika na aktywnego drona. </p>
+<p>Metoda pozwala uzyskac dostep do dronow umieszczonych na liscie dronow.</p>
+<dl class="section return"><dt>Zwraca</dt><dd>Wskaznik na aktywnego drona. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8cpp_source.html#l00131">131</a> pliku <a class="el" href="_scene_8cpp_source.html">Scene.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_scene_a47624ea43c8ab2165e46b8c93542c937_icgraph.png" border="0" usemap="#aclass_scene_a47624ea43c8ab2165e46b8c93542c937_icgraph" alt=""/></div>
+<map name="aclass_scene_a47624ea43c8ab2165e46b8c93542c937_icgraph" id="aclass_scene_a47624ea43c8ab2165e46b8c93542c937_icgraph">
+<area shape="rect" title="Metoda sluzaca probraniu wskaznika na aktywnego drona." alt="" coords="108,5,291,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Glowna funkcja programu." alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="aff5ae6d7433d7a96939ab418f6c51c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff5ae6d7433d7a96939ab418f6c51c92">&#9670;&nbsp;</a></span>Drone_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;std::shared_ptr &lt;<a class="el" href="class_drone.html">Drone</a>&gt; &gt; Scene::Drone_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu std::list reprezentujace zbior dronow na scenie. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00055">55</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="a9570d1e351b52a20c8f8018d0f3e3282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9570d1e351b52a20c8f8018d0f3e3282">&#9670;&nbsp;</a></span>Link_to_gnuplot</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html">PzG::LaczeDoGNUPlota</a>* Scene::Link_to_gnuplot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu <a class="el" href="class_pz_g_1_1_lacze_do_g_n_u_plota.html" title="Klasa realizuje interfejs do programu GNUPlot.">PzG::LaczeDoGNUPlota</a> lacze do Gnuplot. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00076">76</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="a6f64913676678f695c3ff7f7cb84f138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f64913676678f695c3ff7f7cb84f138">&#9670;&nbsp;</a></span>Nbr_of_active_drone</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Scene::Nbr_of_active_drone</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu unsigned int, opisujace numer obecnie aktywnego drona. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00079">79</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="a0a4ce6ba96b842f40de7267826a5d7df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4ce6ba96b842f40de7267826a5d7df">&#9670;&nbsp;</a></span>Number_of_drones</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Scene::Number_of_drones = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu unsigned int reprezentujace liczbe kolejnych dronow na scenie. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00070">70</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="a23400da256e7fa6fa4e143867f28ade9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23400da256e7fa6fa4e143867f28ade9">&#9670;&nbsp;</a></span>Number_of_obstacles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Scene::Number_of_obstacles = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu unsigned int reprezentujace liczbe kolejnych przeszkod na scenie. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00073">73</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="a5adbe4b9c6f846518b5cdfd06d861f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5adbe4b9c6f846518b5cdfd06d861f09">&#9670;&nbsp;</a></span>Objects_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;std::shared_ptr &lt;<a class="el" href="class_scene__object.html">Scene_object</a>&gt; &gt; Scene::Objects_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu std::list reprezentujace zbior wszystkich obiektow na scenie. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00061">61</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="af9d3affcfd8e583bf925dbd0df5a5235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d3affcfd8e583bf925dbd0df5a5235">&#9670;&nbsp;</a></span>Obstacle_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;std::shared_ptr &lt;<a class="el" href="class_scene__object.html">Scene_object</a>&gt; &gt; Scene::Obstacle_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu std::list reprezentujace zbior przeszkod na scenie. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00058">58</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="af7bfa681f18381ea6a2d7d2370de6c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7bfa681f18381ea6a2d7d2370de6c2e">&#9670;&nbsp;</a></span>Tab_of_properties_d1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html">PzG::InfoPlikuDoRysowania</a>* Scene::Tab_of_properties_d1[6]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu <a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania.">PzG::InfoPlikuDoRysowania</a> reprezentujace zbior ustawien rysowania drona nr 1 w Gnuplot. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00064">64</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<a id="a7729083721fe86d7763946f97f8d8864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7729083721fe86d7763946f97f8d8864">&#9670;&nbsp;</a></span>Tab_of_properties_d2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html">PzG::InfoPlikuDoRysowania</a>* Scene::Tab_of_properties_d2[6]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pole typu <a class="el" href="class_pz_g_1_1_info_pliku_do_rysowania.html" title="Zestaw informacji dotyczący pliku i sposobu rysowania.">PzG::InfoPlikuDoRysowania</a> reprezentujace zbior ustawien rysowania drona nr 2 w Gnuplot. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_scene_8hh_source.html#l00067">67</a> pliku <a class="el" href="_scene_8hh_source.html">Scene.hh</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="_scene_8hh_source.html">Scene.hh</a></li>
+<li><a class="el" href="_scene_8cpp_source.html">Scene.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_scene.html">Scene</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

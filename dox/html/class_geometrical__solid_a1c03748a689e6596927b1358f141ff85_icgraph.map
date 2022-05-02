@@ -1,0 +1,7 @@
+<map id="Geometrical_solid::Get_Name_of_file_global" name="Geometrical_solid::Get_Name_of_file_global">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na pobranie nazwy bryly geometrycznej." alt="" coords="244,90,429,131"/>
+<area shape="rect" id="node2" href="$class_drone.html#af7c407f2061112d1c6b190013e185503" title="Metoda pozwalajca pobrac nazwe obiektu sceny &#45; drona." alt="" coords="10,5,191,32"/>
+<area shape="rect" id="node3" href="$class_mnt__long.html#abd54ae810e0abb2d6480984021d6d306" title="Metoda sluzy do pobrania nazwy pliku zawierajacego dane o wierzcholkach gory ze zboczem." alt="" coords="23,57,178,98"/>
+<area shape="rect" id="node4" href="$class_mnt__pointed.html#ab8c9422a2d95d922a02e4ebcf1a72703" title="Metoda sluzy do pobrania nazwy pliku zawierajacego dane o wierzcholkach gory ze szczytem." alt="" coords="13,122,189,163"/>
+<area shape="rect" id="node5" href="$class_plateau.html#a9b8a17600f20acf33d74701fd94f9834" title="Metoda sluzy do pobrania nazwy pliku zawierajacego dane o wierzcholkach plaskowyzu." alt="" coords="5,188,196,215"/>
+</map>

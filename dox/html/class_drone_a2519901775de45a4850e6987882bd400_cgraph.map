@@ -1,0 +1,5 @@
+<map id="Drone::detect_collision" name="Drone::detect_collision">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na sprawdzenie, czy dany dron koliduje z wybranym obiektem sceny." alt="" coords="5,31,176,57"/>
+<area shape="rect" id="node2" href="$class_drone.html#ab706f7738284de4760264ce9dd8d469a" title="Metoda pozwalajca pobrac pozycje obiektu sceny &#45; drona." alt="" coords="224,5,373,32"/>
+<area shape="rect" id="node3" href="$class_drone.html#a124dbbac7ea2f3b593fe917acc3f8bf1" title="Metoda pozwalajca pobrac dane o wymiarach obiektu." alt="" coords="237,56,360,83"/>
+</map>

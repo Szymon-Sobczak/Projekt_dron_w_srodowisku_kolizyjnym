@@ -1,0 +1,25 @@
+var class_drone =
+[
+    [ "Drone", "class_drone.html#a9142d2c628ca91653297d7f6edd09a75", null ],
+    [ "Calculate_and_save_to_file_drone", "class_drone.html#aa10733e2e71e7316ee19f1a09c67331e", null ],
+    [ "Calculate_and_save_to_file_front_camera", "class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4", null ],
+    [ "Calculate_and_save_to_file_fuselage", "class_drone.html#a720acea4a98e74872e80c88a2f24faa6", null ],
+    [ "Calculate_and_save_to_file_rotor", "class_drone.html#a272c0597d236f80545bff08a4d29b330", null ],
+    [ "detect_collision", "class_drone.html#a2519901775de45a4850e6987882bd400", null ],
+    [ "get_angle", "class_drone.html#ab580c1ec518ba0ac7fc5227fddcfb2a9", null ],
+    [ "get_name_of_file", "class_drone.html#af7c407f2061112d1c6b190013e185503", null ],
+    [ "get_position", "class_drone.html#ab706f7738284de4760264ce9dd8d469a", null ],
+    [ "get_size", "class_drone.html#a124dbbac7ea2f3b593fe917acc3f8bf1", null ],
+    [ "go_horizontal", "class_drone.html#a5234bff0299f09ee04975cf95ad3703d", null ],
+    [ "go_verical", "class_drone.html#ad59d8053449d0d45036b4c927dc5e079", null ],
+    [ "plan_path", "class_drone.html#a36092b3b7bf1794763bfbf8cafe2c623", null ],
+    [ "plan_reacon", "class_drone.html#a97fe0330e4a247df2be8d8b1dbff8773", null ],
+    [ "rotate_drone", "class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0", null ],
+    [ "update_angle", "class_drone.html#a3c99b69b08004b87e3555839b0b319dd", null ],
+    [ "drone_location", "class_drone.html#a532701f695c3a8fe7a5eae37e174a0d4", null ],
+    [ "drone_radius", "class_drone.html#a7b467bd77888674870bfc3ad3e1e543a", null ],
+    [ "front_camera", "class_drone.html#a4f6f10cc281b42384d57a03da63d47b2", null ],
+    [ "fuselage", "class_drone.html#a48c573b4a2d091fe3763aeaf6007f2ad", null ],
+    [ "orientation_angle", "class_drone.html#a26e007901cff9ced07819cb50cff301d", null ],
+    [ "rotors", "class_drone.html#a24b0c383d2368a15bf4e451faa3b1f2f", null ]
+];

@@ -1,0 +1,8 @@
+<map id="Plateau" name="Plateau">
+<area shape="rect" id="node1" title="Klasa modelujaca w programie pojecie plaskowyzu. Klasa dziedziczy po klasie Cuboid i Scene_object." alt="" coords="81,353,151,380"/>
+<area shape="rect" id="node2" href="$class_cuboid.html" title="Klasa modelujaca w programie pojecie prostopadloscianu, ktorego wierzcholki i centrum sa wyrazone za ..." alt="" coords="27,277,93,304"/>
+<area shape="rect" id="node3" href="$class_geometrical__solid.html" title="Klasa modelujaca w programie pojecie bryły geometrycznej." alt="" coords="174,193,314,219"/>
+<area shape="rect" id="node4" href="$class_vector.html" title=" " alt="" coords="15,95,116,121"/>
+<area shape="rect" id="node5" href="$class_vector.html" title="Szablon klasy modelujacej w programie pojecie wektora." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node6" href="$class_scene__object.html" title="Klasa modelujaca w programie pojecie obiektu sceny." alt="" coords="118,277,226,304"/>
+</map>

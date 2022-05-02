@@ -1,0 +1,9 @@
+<map id="Hexagonal_prism::Transform_to_global_coords" name="Hexagonal_prism::Transform_to_global_coords">
+<area shape="rect" id="node1" title="Metoda pozawlajaca na transforamacje graniastoslupa prawidlowego szesciokatnego z ukladu lokalnego do..." alt="" coords="869,39,1079,80"/>
+<area shape="rect" id="node2" href="$class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="620,5,821,47"/>
+<area shape="rect" id="node7" href="$class_drone.html#a272c0597d236f80545bff08a4d29b330" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych wybranego rotora do pli..." alt="" coords="640,71,801,112"/>
+<area shape="rect" id="node3" href="$class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="411,39,572,80"/>
+<area shape="rect" id="node4" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,46,163,73"/>
+<area shape="rect" id="node5" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,46,355,73"/>
+<area shape="rect" id="node6" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,97,363,123"/>
+</map>

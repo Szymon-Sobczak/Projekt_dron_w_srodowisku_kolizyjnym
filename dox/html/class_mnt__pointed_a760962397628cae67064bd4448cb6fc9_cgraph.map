@@ -1,0 +1,11 @@
+<map id="Mnt_pointed::Mnt_pointed" name="Mnt_pointed::Mnt_pointed">
+<area shape="rect" id="node1" title="Konstruktor wieloparametryczny klasy." alt="" coords="5,123,197,149"/>
+<area shape="rect" id="node2" href="$class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331" title="Metoda pozwalajaca zapisac gore ze szczytem do pliku." alt="" coords="245,64,435,91"/>
+<area shape="rect" id="node8" href="$class_mnt__pointed.html#a6f2468afb3429ac006faf397766613e8" title="Metoda pozwalajaca na modyfikacje rozkladu wierzcholkow loklanych." alt="" coords="253,115,427,157"/>
+<area shape="rect" id="node9" href="$class_geometrical__solid.html#ac1b0e258250344308e07f7f7175e19f3" title="Metoda pozwalajaca na aktualizacje skali bryly geometrycznej." alt="" coords="266,181,414,222"/>
+<area shape="rect" id="node3" href="$class_scene__object.html#a247d8bce7dc93d1db0929652e5f4afc2" title="Metoda pozwalajaca pobrac numer ID obiektu sceny." alt="" coords="483,5,668,32"/>
+<area shape="rect" id="node4" href="$class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="495,57,655,98"/>
+<area shape="rect" id="node7" href="$class_geometrical__solid.html#a5ead7c5b0fc35bc36b58b06372784a41" title="Metoda pozwalajaca na aktualizacje nazwy bryly geometrycznej." alt="" coords="495,123,655,179"/>
+<area shape="rect" id="node5" href="$matrix3x3_8hh.html#a09eb2fbe2cced0556e119e17cd95a8dd" title="Funkcja wypelniajaca Matrix3x3 wartosciaciami macierzy obrotu 3D w osi OZ, dla zadanego kata." alt="" coords="731,35,849,61"/>
+<area shape="rect" id="node6" href="$class_geometrical__solid.html#a8bc0c2581baa2a57e454bb4033bab460" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="716,86,864,127"/>
+</map>

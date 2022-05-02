@@ -1,0 +1,6 @@
+<map id="PzG::AtrybutyRysowania::WezRozmiar" name="PzG::AtrybutyRysowania::WezRozmiar">
+<area shape="rect" id="node1" title="Udostępnia rozmiar rysowania." alt="" coords="593,39,776,80"/>
+<area shape="rect" id="node2" href="$namespace_pz_g.html#a85d3a77f67c2724ba3675bc3ef05eb81" title="Dopisuje do polecenia rysowania wpisy z nazwami plików, w których są współrzędne punktów." alt="" coords="319,5,545,47"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_info_punkty_do_rysowania.html#a191cbd40cc4a1cffbee988618f3dc258" title="Wyznacza współrzędne położenia etykiety." alt="" coords="325,71,539,112"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aee10e48fe1b9fba6e2897b4ccfa27aef" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="5,5,271,47"/>
+</map>

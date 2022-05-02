@@ -1,0 +1,828 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly Faza 3.: Dokumentacja klasy PzG::InfoPunktyDoRysowania</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly Faza 3.
+   &#160;<span id="projectnumber">1.0 v.</span>
+   </div>
+   <div id="projectbrief">Szymon Sobczak nr 259275.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_pz_g_1_1_info_punkty_do_rysowania.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pri-methods">Metody prywatne</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="#pri-static-attribs">Statyczne atrybuty prywatne</a> &#124;
+<a href="class_pz_g_1_1_info_punkty_do_rysowania-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy PzG::InfoPunktyDoRysowania</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Modeluje zestaw informacji o rysowanych punktach.  
+ <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#details">Więcej...</a></p>
+<div class="dynheader">
+Diagram współpracy dla PzG::InfoPunktyDoRysowania:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_pz_g_1_1_info_punkty_do_rysowania__coll__graph.png" border="0" usemap="#a_pz_g_1_1_info_punkty_do_rysowania_coll__map" alt="Collaboration graph"/></div>
+<map name="a_pz_g_1_1_info_punkty_do_rysowania_coll__map" id="a_pz_g_1_1_info_punkty_do_rysowania_coll__map">
+<area shape="rect" title="Modeluje zestaw informacji o rysowanych punktach." alt="" coords="76,139,291,165"/>
+<area shape="rect" href="class_pz_g_1_1_atrybuty_rysowania.html" title="Modeluje zestaw informacji będący atrybutami rysowania." alt="" coords="5,5,188,32"/>
+<area shape="rect" href="class_pz_g_1_1_wektor2f.html" title="Klasa pomocnicza, pozwala modelować wektor dwuwymiarowy." alt="" coords="213,5,327,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:aed0725576cd5cf0ac01fc2e528e2c85b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#aed0725576cd5cf0ac01fc2e528e2c85b">InfoPunktyDoRysowania</a> (const <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> &amp;Wspolrz, const <a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a> &amp;Atryb, const char *sEtykieta)</td></tr>
+<tr class="memdesc:aed0725576cd5cf0ac01fc2e528e2c85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicjalizuje obiekt.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#aed0725576cd5cf0ac01fc2e528e2c85b">Więcej...</a><br /></td></tr>
+<tr class="separator:aed0725576cd5cf0ac01fc2e528e2c85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee45bb223dcbb35b32934eba41a723c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#aee45bb223dcbb35b32934eba41a723c6">UstawWspolrzEtykietyDlaPrzesuniecia</a> (float x, float y)</td></tr>
+<tr class="memdesc:aee45bb223dcbb35b32934eba41a723c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wpisuje nowe współrzędne.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#aee45bb223dcbb35b32934eba41a723c6">Więcej...</a><br /></td></tr>
+<tr class="separator:aee45bb223dcbb35b32934eba41a723c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385228b5ac60713d115d37d267524ec3"><td class="memItemLeft" align="right" valign="top">const string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a385228b5ac60713d115d37d267524ec3">WezEtykiete</a> () const</td></tr>
+<tr class="memdesc:a385228b5ac60713d115d37d267524ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Udostępnia etykietę danego punktu.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a385228b5ac60713d115d37d267524ec3">Więcej...</a><br /></td></tr>
+<tr class="separator:a385228b5ac60713d115d37d267524ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8903b837a2c97c8aede88324d316ac6e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a8903b837a2c97c8aede88324d316ac6e">WezWspolrzEtykiety</a> () const</td></tr>
+<tr class="memdesc:a8903b837a2c97c8aede88324d316ac6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Udostępnia wspólrzędne etykiety.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a8903b837a2c97c8aede88324d316ac6e">Więcej...</a><br /></td></tr>
+<tr class="separator:a8903b837a2c97c8aede88324d316ac6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc9f21bca0c987c540783d3bedcbd33a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#acc9f21bca0c987c540783d3bedcbd33a">operator&lt;</a> (const <a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a> &amp;Info) const</td></tr>
+<tr class="memdesc:acc9f21bca0c987c540783d3bedcbd33a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Porównuje tylko wg atrbutów.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#acc9f21bca0c987c540783d3bedcbd33a">Więcej...</a><br /></td></tr>
+<tr class="separator:acc9f21bca0c987c540783d3bedcbd33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7639b8891f0f7975451b4d675ff7cb31"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a7639b8891f0f7975451b4d675ff7cb31">WezAtrybuty</a> () const</td></tr>
+<tr class="memdesc:a7639b8891f0f7975451b4d675ff7cb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Udostępnia atrybuty rysowania.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a7639b8891f0f7975451b4d675ff7cb31">Więcej...</a><br /></td></tr>
+<tr class="separator:a7639b8891f0f7975451b4d675ff7cb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93c59d4f6fa5687ceef68db7c832c10a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a93c59d4f6fa5687ceef68db7c832c10a">OtworzAtrybuty</a> ()</td></tr>
+<tr class="memdesc:a93c59d4f6fa5687ceef68db7c832c10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Udostępnia atrybuty do zmiany.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a93c59d4f6fa5687ceef68db7c832c10a">Więcej...</a><br /></td></tr>
+<tr class="separator:a93c59d4f6fa5687ceef68db7c832c10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84e4bfa68f132661ff90dac48d83e8c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#ae84e4bfa68f132661ff90dac48d83e8c">WezWspolrz</a> () const</td></tr>
+<tr class="memdesc:ae84e4bfa68f132661ff90dac48d83e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Udostępnia współrzędne rysowania.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#ae84e4bfa68f132661ff90dac48d83e8c">Więcej...</a><br /></td></tr>
+<tr class="separator:ae84e4bfa68f132661ff90dac48d83e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a367a5b7977f3d16f2466a4d5f89a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a9a367a5b7977f3d16f2466a4d5f89a8a">OtworzWspolrz</a> ()</td></tr>
+<tr class="memdesc:a9a367a5b7977f3d16f2466a4d5f89a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Udostępnia współrzędne do zmiany.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a9a367a5b7977f3d16f2466a4d5f89a8a">Więcej...</a><br /></td></tr>
+<tr class="separator:a9a367a5b7977f3d16f2466a4d5f89a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94340d4c219b5469f79cd70cb1638aa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a94340d4c219b5469f79cd70cb1638aa3">DodajDoEtykiety</a> (int Num)</td></tr>
+<tr class="memdesc:a94340d4c219b5469f79cd70cb1638aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dopisuje do etykiety numer.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a94340d4c219b5469f79cd70cb1638aa3">Więcej...</a><br /></td></tr>
+<tr class="separator:a94340d4c219b5469f79cd70cb1638aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea85f2f3149e375b4c89daad67ccd28e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#aea85f2f3149e375b4c89daad67ccd28e">ZmienPrzesEtykiety_WzgWspoPunktu</a> (float x, float y)</td></tr>
+<tr class="memdesc:aea85f2f3149e375b4c89daad67ccd28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zmienia współrzędne etykiety względem współrzędnych punktu.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#aea85f2f3149e375b4c89daad67ccd28e">Więcej...</a><br /></td></tr>
+<tr class="separator:aea85f2f3149e375b4c89daad67ccd28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2b7bd8684f0b4a4b5465c16e0fe6c71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#af2b7bd8684f0b4a4b5465c16e0fe6c71">ZmienPrzesEtykiety_WzgRozmPunktu</a> (float x, float y)</td></tr>
+<tr class="memdesc:af2b7bd8684f0b4a4b5465c16e0fe6c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zmienia współrzędne etykiety względem rozmiaru punktu.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#af2b7bd8684f0b4a4b5465c16e0fe6c71">Więcej...</a><br /></td></tr>
+<tr class="separator:af2b7bd8684f0b4a4b5465c16e0fe6c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Metody prywatne</h2></td></tr>
+<tr class="memitem:a191cbd40cc4a1cffbee988618f3dc258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a191cbd40cc4a1cffbee988618f3dc258">WyznaczWspolrzEtykiety</a> () const</td></tr>
+<tr class="memdesc:a191cbd40cc4a1cffbee988618f3dc258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wyznacza współrzędne położenia etykiety.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a191cbd40cc4a1cffbee988618f3dc258">Więcej...</a><br /></td></tr>
+<tr class="separator:a191cbd40cc4a1cffbee988618f3dc258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a073030895bfaf032da0605c036856629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a073030895bfaf032da0605c036856629">_Atryb</a></td></tr>
+<tr class="memdesc:a073030895bfaf032da0605c036856629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atrybuty rysowania elementu graficznego.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a073030895bfaf032da0605c036856629">Więcej...</a><br /></td></tr>
+<tr class="separator:a073030895bfaf032da0605c036856629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5deb3a00b4307d0dfab33ff964e004cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a5deb3a00b4307d0dfab33ff964e004cb">_Wspolrz</a></td></tr>
+<tr class="memdesc:a5deb3a00b4307d0dfab33ff964e004cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Współrzędne punktu.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a5deb3a00b4307d0dfab33ff964e004cb">Więcej...</a><br /></td></tr>
+<tr class="separator:a5deb3a00b4307d0dfab33ff964e004cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfc8c6b23681af0b577a06fcdd53230"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#aedfc8c6b23681af0b577a06fcdd53230">_Etykieta</a></td></tr>
+<tr class="memdesc:aedfc8c6b23681af0b577a06fcdd53230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przechowuje etykietę punktu.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#aedfc8c6b23681af0b577a06fcdd53230">Więcej...</a><br /></td></tr>
+<tr class="separator:aedfc8c6b23681af0b577a06fcdd53230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7acdea0cba58bfa8a80f0852ead437c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a7acdea0cba58bfa8a80f0852ead437c2">_WspolrzEtykiety</a></td></tr>
+<tr class="memdesc:a7acdea0cba58bfa8a80f0852ead437c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Współrzędne etykiety.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a7acdea0cba58bfa8a80f0852ead437c2">Więcej...</a><br /></td></tr>
+<tr class="separator:a7acdea0cba58bfa8a80f0852ead437c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Statyczne atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a242c50885a979ccf547e9fbce6196bd0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a242c50885a979ccf547e9fbce6196bd0">_PrzesEtykiety_WzgWspoPunktu</a></td></tr>
+<tr class="memdesc:a242c50885a979ccf547e9fbce6196bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stałe przesunięcie etykiety wzgl. punktu.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a242c50885a979ccf547e9fbce6196bd0">Więcej...</a><br /></td></tr>
+<tr class="separator:a242c50885a979ccf547e9fbce6196bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28666b015a763bc4878cde645bb2d871"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a28666b015a763bc4878cde645bb2d871">_PrzesEtykiety_WzgRozmPunktu</a></td></tr>
+<tr class="memdesc:a28666b015a763bc4878cde645bb2d871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Współczynnik przesunięcia etykiety.  <a href="class_pz_g_1_1_info_punkty_do_rysowania.html#a28666b015a763bc4878cde645bb2d871">Więcej...</a><br /></td></tr>
+<tr class="separator:a28666b015a763bc4878cde645bb2d871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Modeluje zestaw informacji o rysowanych punktach. </p>
+<p>Klasa ma charakter pomocniczy i modeluje zestaw informacji o punktach, które mają być rysowane. Informacje te określają styl rysowania punktu, kolor oraz jego rozmiar, jak też współrzędne tego punktu. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00922">922</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="aed0725576cd5cf0ac01fc2e528e2c85b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed0725576cd5cf0ac01fc2e528e2c85b">&#9670;&nbsp;</a></span>InfoPunktyDoRysowania()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PzG::InfoPunktyDoRysowania::InfoPunktyDoRysowania </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> &amp;&#160;</td>
+          <td class="paramname"><em>Wspolrz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a> &amp;&#160;</td>
+          <td class="paramname"><em>Atryb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sEtykieta</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inicjalizuje obiekt. </p>
+<p>Inicjalizuje obiekt determinując współrzędne rysowanego punktu, atrybuty jego rysowania, oraz treść etykiety. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Wspolrz</td><td>- współrzędne rysowanego punktu, </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Atryb</td><td>- atrybuty rysowania, </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sEtykieta</td><td>- treść etykiety. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00985">985</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a94340d4c219b5469f79cd70cb1638aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94340d4c219b5469f79cd70cb1638aa3">&#9670;&nbsp;</a></span>DodajDoEtykiety()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PzG::InfoPunktyDoRysowania::DodajDoEtykiety </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dopisuje do etykiety numer. </p>
+<p>Dopisuje do etykiety numer. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Num</td><td>- liczba, która ma być dopisana do etykiety punktu. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01125">1125</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acc9f21bca0c987c540783d3bedcbd33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc9f21bca0c987c540783d3bedcbd33a">&#9670;&nbsp;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PzG::InfoPunktyDoRysowania::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a> &amp;&#160;</td>
+          <td class="paramname"><em>Info</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Porównuje tylko wg atrbutów. </p>
+<p>Prównywane są tylko i wyłacznie same atrybuty. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Info</td><td>- obiekt, które pole <a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html#a073030895bfaf032da0605c036856629">_Atryb</a> ma być prównane z analogicznym polem obiektu <code>*this</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wynik porównania zgodnie implementacją operatora '&lt;' dla klasy <a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html" title="Modeluje zestaw informacji będący atrybutami rysowania.">AtrybutyRysowania</a>. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01031">1031</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a93c59d4f6fa5687ceef68db7c832c10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93c59d4f6fa5687ceef68db7c832c10a">&#9670;&nbsp;</a></span>OtworzAtrybuty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a>&amp; PzG::InfoPunktyDoRysowania::OtworzAtrybuty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Udostępnia atrybuty do zmiany. </p>
+<p>Udostępnia do zmiany atrybuty rysowania danego elementu graficznego. </p><dl class="section return"><dt>Zwraca</dt><dd>Referancja atrybutów rysowania pozwalająca na ich modyfikację. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01047">1047</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9a367a5b7977f3d16f2466a4d5f89a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a367a5b7977f3d16f2466a4d5f89a8a">&#9670;&nbsp;</a></span>OtworzWspolrz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&amp; PzG::InfoPunktyDoRysowania::OtworzWspolrz </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Udostępnia współrzędne do zmiany. </p>
+<p>Udostępnia do zmiany współrzędne rysowania danego elementu graficznego.</p>
+<dl class="section return"><dt>Zwraca</dt><dd>Referancja do współrzędnych punktu, które można modyfikować. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01063">1063</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aee45bb223dcbb35b32934eba41a723c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee45bb223dcbb35b32934eba41a723c6">&#9670;&nbsp;</a></span>UstawWspolrzEtykietyDlaPrzesuniecia()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PzG::InfoPunktyDoRysowania::UstawWspolrzEtykietyDlaPrzesuniecia </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wpisuje nowe współrzędne. </p>
+<p>Wpisuje nowe współrzędne jako przesunięcie względem położenie puntku. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>- nowa względna współrzędna x-owa etykiety, </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>- nowa względna współrzędna y-owa etykiety. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01001">1001</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7639b8891f0f7975451b4d675ff7cb31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7639b8891f0f7975451b4d675ff7cb31">&#9670;&nbsp;</a></span>WezAtrybuty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a>&amp; PzG::InfoPunktyDoRysowania::WezAtrybuty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Udostępnia atrybuty rysowania. </p>
+<p>Udostępnia atrybuty rysowania danego elementu graficznego. </p><dl class="section return"><dt>Zwraca</dt><dd>Referancja atrybutów rysowania w trybie tylko do odczytu </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01039">1039</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a385228b5ac60713d115d37d267524ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a385228b5ac60713d115d37d267524ec3">&#9670;&nbsp;</a></span>WezEtykiete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string&amp; PzG::InfoPunktyDoRysowania::WezEtykiete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Udostępnia etykietę danego punktu. </p>
+<p>Udostępnia etykietę danego punktu. </p><dl class="section return"><dt>Zwraca</dt><dd>Referencja do etykiety w trybie tylko do odczytu. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01013">1013</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae84e4bfa68f132661ff90dac48d83e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84e4bfa68f132661ff90dac48d83e8c">&#9670;&nbsp;</a></span>WezWspolrz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&amp; PzG::InfoPunktyDoRysowania::WezWspolrz </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Udostępnia współrzędne rysowania. </p>
+<p>Udostępnia współrzędne rysowania danego elementu graficznego. </p><dl class="section return"><dt>Zwraca</dt><dd>Referancja do współrzędnych punktu w trybie tylko do odczytu. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01054">1054</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a8903b837a2c97c8aede88324d316ac6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8903b837a2c97c8aede88324d316ac6e">&#9670;&nbsp;</a></span>WezWspolrzEtykiety()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a>&amp; PzG::InfoPunktyDoRysowania::WezWspolrzEtykiety </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Udostępnia wspólrzędne etykiety. </p>
+<p>Udostępnia wspólrzędne etykiety. </p><dl class="section return"><dt>Zwraca</dt><dd>Referencja do współrzędnych etykiety w trybie tylko do odczytu. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01020">1020</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a191cbd40cc4a1cffbee988618f3dc258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191cbd40cc4a1cffbee988618f3dc258">&#9670;&nbsp;</a></span>WyznaczWspolrzEtykiety()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> PzG::InfoPunktyDoRysowania::WyznaczWspolrzEtykiety </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wyznacza współrzędne położenia etykiety. </p>
+<p>Wyznacza współrzędne położenia etykiety. </p><dl class="section return"><dt>Zwraca</dt><dd>Wyznaczone współrzędne etykiety. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00969">969</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_pz_g_1_1_info_punkty_do_rysowania_a191cbd40cc4a1cffbee988618f3dc258_cgraph.png" border="0" usemap="#aclass_pz_g_1_1_info_punkty_do_rysowania_a191cbd40cc4a1cffbee988618f3dc258_cgraph" alt=""/></div>
+<map name="aclass_pz_g_1_1_info_punkty_do_rysowania_a191cbd40cc4a1cffbee988618f3dc258_cgraph" id="aclass_pz_g_1_1_info_punkty_do_rysowania_a191cbd40cc4a1cffbee988618f3dc258_cgraph">
+<area shape="rect" title="Wyznacza współrzędne położenia etykiety." alt="" coords="5,5,220,47"/>
+<area shape="rect" href="class_pz_g_1_1_atrybuty_rysowania.html#a9f0f08bb69dca9c12e7f55c165c6223e" title="Udostępnia rozmiar rysowania." alt="" coords="268,5,451,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af2b7bd8684f0b4a4b5465c16e0fe6c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2b7bd8684f0b4a4b5465c16e0fe6c71">&#9670;&nbsp;</a></span>ZmienPrzesEtykiety_WzgRozmPunktu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a> &amp; PzG::InfoPunktyDoRysowania::ZmienPrzesEtykiety_WzgRozmPunktu </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zmienia współrzędne etykiety względem rozmiaru punktu. </p>
+<p>Zmienia współrzędne etykiety względem rozmiaru punktu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>- względna współrzędna x-owa etykiety, </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>- względna współrzędna y-owa etykiety. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Refencja do zmodyfikowanego obiektu <code>*this</code>. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01110">1110</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aea85f2f3149e375b4c89daad67ccd28e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea85f2f3149e375b4c89daad67ccd28e">&#9670;&nbsp;</a></span>ZmienPrzesEtykiety_WzgWspoPunktu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a> &amp; PzG::InfoPunktyDoRysowania::ZmienPrzesEtykiety_WzgWspoPunktu </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zmienia współrzędne etykiety względem współrzędnych punktu. </p>
+<p>Zmienia współrzędne etykiety względem współrzędnych punktu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>- względna współrzędna x-owa etykiety, </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>- względna współrzędna y-owa etykiety. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Refencja do zmodyfikowanego obiektu <code>*this</code>. </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l01095">1095</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a073030895bfaf032da0605c036856629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a073030895bfaf032da0605c036856629">&#9670;&nbsp;</a></span>_Atryb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_atrybuty_rysowania.html">AtrybutyRysowania</a> PzG::InfoPunktyDoRysowania::_Atryb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atrybuty rysowania elementu graficznego. </p>
+<p>Pole zawiera wartości parametrów determinujące sposób rysowania danego elementu graficznego. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00929">929</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aedfc8c6b23681af0b577a06fcdd53230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfc8c6b23681af0b577a06fcdd53230">&#9670;&nbsp;</a></span>_Etykieta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string PzG::InfoPunktyDoRysowania::_Etykieta</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Przechowuje etykietę punktu. </p>
+<p>Przechowuje etykietę, która może być wyświetlona razem z danym punktem. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00942">942</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a28666b015a763bc4878cde645bb2d871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28666b015a763bc4878cde645bb2d871">&#9670;&nbsp;</a></span>_PrzesEtykiety_WzgRozmPunktu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> PzG::InfoPunktyDoRysowania::_PrzesEtykiety_WzgRozmPunktu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Współczynnik przesunięcia etykiety. </p>
+<p>Współczynnik przesunięcia względem rozmiaru punktu. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00961">961</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a242c50885a979ccf547e9fbce6196bd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a242c50885a979ccf547e9fbce6196bd0">&#9670;&nbsp;</a></span>_PrzesEtykiety_WzgWspoPunktu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> PzG::InfoPunktyDoRysowania::_PrzesEtykiety_WzgWspoPunktu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stałe przesunięcie etykiety wzgl. punktu. </p>
+<p>Stałe przesunięcie etykiety względem współrzędnych punktu </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00955">955</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5deb3a00b4307d0dfab33ff964e004cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5deb3a00b4307d0dfab33ff964e004cb">&#9670;&nbsp;</a></span>_Wspolrz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> PzG::InfoPunktyDoRysowania::_Wspolrz</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Współrzędne punktu. </p>
+<p>Współrzędne punktu, który ma być rysowany. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00935">935</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7acdea0cba58bfa8a80f0852ead437c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7acdea0cba58bfa8a80f0852ead437c2">&#9670;&nbsp;</a></span>_WspolrzEtykiety</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_pz_g_1_1_wektor2f.html">Wektor2f</a> PzG::InfoPunktyDoRysowania::_WspolrzEtykiety</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Współrzędne etykiety. </p>
+<p>Współrzędne etykiety. </p>
+
+<p class="definition">Definicja w linii <a class="el" href="lacze__do__gnuplota_8cpp_source.html#l00948">948</a> pliku <a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li><a class="el" href="lacze__do__gnuplota_8cpp_source.html">lacze_do_gnuplota.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_pz_g.html">PzG</a></li><li class="navelem"><a class="el" href="class_pz_g_1_1_info_punkty_do_rysowania.html">InfoPunktyDoRysowania</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

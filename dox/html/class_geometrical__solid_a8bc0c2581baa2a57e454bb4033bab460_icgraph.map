@@ -1,0 +1,21 @@
+<map id="Geometrical_solid::get_scale" name="Geometrical_solid::get_scale">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na pobranie skali bryly geometrycznej." alt="" coords="1157,183,1305,225"/>
+<area shape="rect" id="node2" href="$class_drone.html#aa10733e2e71e7316ee19f1a09c67331e" title="Metoda realizujaca zapis calego drona do pliku." alt="" coords="426,289,587,330"/>
+<area shape="rect" id="node6" href="$class_mnt__long.html#a8cdf17503baacb5ae604e3da77e2c4aa" title="Metoda pozwalajca pobrac dane o wymiarach obiektu." alt="" coords="933,115,1077,141"/>
+<area shape="rect" id="node7" href="$class_mnt__pointed.html#a4038890c2d7966e017c44331ccc84fee" title="Metoda pozwalajca pobrac dane o wymiarach obiektu." alt="" coords="922,165,1087,192"/>
+<area shape="rect" id="node8" href="$class_plateau.html#ac6d052f05647c7bf00286d0e2cb6ab20" title="Metoda pozwalajca pobrac dane o wymiarach obiektu." alt="" coords="938,216,1071,243"/>
+<area shape="rect" id="node9" href="$class_cuboid.html#a940aebd7222c87874c7e780f0d9376d5" title="Metoda pozawlajaca na transforamacje prostopadloscianu z ukladu lokalnego do globalnego sceny." alt="" coords="925,49,1085,90"/>
+<area shape="rect" id="node17" href="$class_hexagonal__prism.html#a816173bc7296b7b9ae88da8cf3a56872" title="Metoda pozawlajaca na transforamacje graniastoslupa prawidlowego szesciokatnego z ukladu lokalnego do..." alt="" coords="900,318,1109,359"/>
+<area shape="rect" id="node3" href="$class_drone.html#a5234bff0299f09ee04975cf95ad3703d" title="Metoda realizujaca przelot drona w poziomie." alt="" coords="5,296,163,323"/>
+<area shape="rect" id="node4" href="$class_drone.html#ad59d8053449d0d45036b4c927dc5e079" title="Metoda realizujaca przelot drona w pionie." alt="" coords="219,296,355,323"/>
+<area shape="rect" id="node5" href="$class_drone.html#ae55ed7a073e64ce02fdc61566534d6a0" title="Metoda realizujaca obrot drona w osi Z." alt="" coords="211,245,363,272"/>
+<area shape="rect" id="node10" href="$class_drone.html#a720acea4a98e74872e80c88a2f24faa6" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kadluba do pliku." alt="" coords="666,179,837,221"/>
+<area shape="rect" id="node11" href="$class_mnt__long.html#a702fb3916bd52fa185bb50e8f109aa6a" title="Metoda pozwalajaca zapisac gore ze zboczem do pliku." alt="" coords="667,5,835,32"/>
+<area shape="rect" id="node13" href="$class_mnt__pointed.html#aea2c46332bf466a64d26394a4eaee331" title="Metoda pozwalajaca zapisac gore ze szczytem do pliku." alt="" coords="657,56,846,83"/>
+<area shape="rect" id="node15" href="$class_plateau.html#a856b51e1fe86e60ed79eec7fea0b6b0c" title="Metoda pozwalajaca zapisac plaskowyz do pliku." alt="" coords="673,107,830,133"/>
+<area shape="rect" id="node12" href="$class_mnt__long.html#ab0659884d54f799b6475869481290b63" title="Konstruktor wieloparametryczny klasy." alt="" coords="431,5,582,32"/>
+<area shape="rect" id="node14" href="$class_mnt__pointed.html#a760962397628cae67064bd4448cb6fc9" title="Konstruktor wieloparametryczny klasy." alt="" coords="411,56,603,83"/>
+<area shape="rect" id="node16" href="$class_plateau.html#aea5be59e1435d22107b0f6d40dae69a2" title="Konstruktor wieloparametryczny klasy." alt="" coords="443,107,571,133"/>
+<area shape="rect" id="node18" href="$class_drone.html#ad004be2850d0e4f39b69bacfc8c5dbd4" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych kamery przedniej do pli..." alt="" coords="651,383,852,425"/>
+<area shape="rect" id="node19" href="$class_drone.html#a272c0597d236f80545bff08a4d29b330" title="Metoda realizujaca obliczanie i zapisywanie danych o wierzcholkach globalnych wybranego rotora do pli..." alt="" coords="671,318,832,359"/>
+</map>
